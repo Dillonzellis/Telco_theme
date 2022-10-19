@@ -7,21 +7,23 @@ The designs were created to the following widths:
 - Mobile: 400px
 - Desktop: 1920px
 
+- Max Width Container: 1500px
+
 ## Colors
 
 ### Primary
 
-Blue: #0066A4
+- Blue: #0066A4
 
 ### Accent
 
-Green: #73A800
+- Green: #73A800
 
 ### Neutral
 
-White: #FFFFFF
-Light Gray: #A1A1A5
-Dark Gray: #404040
+- White: #FFFFFF
+- Light Gray: #A1A1A5
+- Dark Gray: #404040
 
 ## Typography
 

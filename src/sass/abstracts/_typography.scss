@@ -7,7 +7,20 @@ $fw-semi-bold: 600;
 $fw-bold: 700;
 
 $fs-400: 1rem;
+$fs-425: 1.125rem;
 $fs-450: 1.5rem;
 $fs-500: 2rem;
 $fs-600: 3rem;
-$fs-700: 4rem;
+$fs-700: 3.75rem;
+
+$fs-body: $fs-400;
+$fs-nav: $fs-425;
+$fs-primary-heading: $fs-450;
+$fs-button: $fs-400;
+
+@media(min-width: 500px) {
+    $fs-body: $fs-400;
+    $fs-primary-heading: $fs-700;
+    $fs-nav: $fs-425;
+    $fs-button: $fs-400;
+}
