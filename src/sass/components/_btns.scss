@@ -1,19 +1,33 @@
-@use '/src/sass/abstracts/' as *;
+@use '/src/sass/abstracts/'as *;
 
 .btn {
-    display: inline-flex;
-    cursor: pointer;
-    text-decoration: none;
-    border: 0;
-    border-radius: 100vmax;
-    padding: 0.75em 1em;
-    font-weight: $fw-bold;
-    line-height: 1;
-    color: $clr-neutral-100;
-    background-color: $clr-accent-400;
-    box-shadow: 0 1.125em 1em -1em $clr-accent-500;
-    font-size: $fs-button;
+  display: inline-flex;
+      // display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: 0;
+  border-radius: 100vmax;
+  padding: 0.75em 1em;
+  font-weight: $fw-bold;
+  line-height: 1;
+  color: $clr-neutral-100;
+  background-color: $clr-accent-400;
+  box-shadow: 0 1.125em 1em -1em $clr-accent-500;
+  font-size: $fs-button;
+
+  transform: scale(1);
+  transition: transform 200ms ease;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.05) translateY(-.125em);
+
+    &::before {
+      opacity: .3;
+    }
   }
+}
 
 // .button {
 //     display: inline-block;
@@ -32,14 +46,14 @@
 //     box-shadow: 0 .125em .5em rgba(black, .15);
 //     transform: scale(1);
 //     transition: transform 200ms ease;
-    
-  
-  
+
+
+
 //     &:hover,
 //     &:focus {
 //       transform: scale(1.05) translateY(-.125em);
 //       color: white;
-  
+
 //       &::before {
 //         opacity: .3;
 //       }
