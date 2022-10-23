@@ -1,0 +1,7 @@
+@use '/src/sass/abstracts/' as *;
+
+body{
+    font-size: $fs-body;
+    font-family: $ff-primary;
+    color: $clr-neutral-100;
+}

@@ -3,4 +3,20 @@
 .primary-heading {
     font-size: $fs-primary-heading;
     font-family: $ff-primary;
+    font-weight: $fw-bold;
+    color: $clr-neutral-100;
+}
+
+.secondary-heading {
+    font-size: $fs-secondary-heading;
+    font-family: $ff-primary;
+    font-weight: $fw-bold;
+    color: $clr-neutral-100;
+}
+
+.content-heading{
+    font-size: $fs-content-heading;
+    font-family: $ff-primary;
+    font-weight: $fw-semi-bold;
+    color: $clr-neutral-700;
 }

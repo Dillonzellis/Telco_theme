@@ -6,21 +6,19 @@ $fw-medium: 500;
 $fw-semi-bold: 600;
 $fw-bold: 700;
 
-$fs-400: 1rem;
-$fs-425: 1.125rem;
-$fs-450: 1.5rem;
-$fs-500: 2rem;
-$fs-600: 3rem;
-$fs-700: 3.75rem;
+$fs-400: var(--fs-400);
+$fs-425: var(--fs-425);
+$fs-450: var(--fs-450);
+$fs-500: var(--fs-500);
+$fs-600: var(--fs-600);
+$fs-650: var(--fs-650);
+$fs-700: var(--fs-700);
 
 $fs-body: $fs-400;
 $fs-nav: $fs-425;
-$fs-primary-heading: $fs-450;
-$fs-button: $fs-400;
 
-@media(min-width: 500px) {
-    $fs-body: $fs-400;
-    $fs-primary-heading: $fs-700;
-    $fs-nav: $fs-425;
-    $fs-button: $fs-400;
-}
+$fs-primary-heading: $fs-700;
+$fs-secondary-heading: $fs-650;
+$fs-content-heading: $fs-600;
+
+$fs-button: $fs-400;

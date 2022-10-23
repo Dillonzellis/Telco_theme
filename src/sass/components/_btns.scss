@@ -1,4 +1,4 @@
-@use '../abstracts/' as *;
+@use '/src/sass/abstracts/' as *;
 
 .btn {
     display: inline-flex;
@@ -8,11 +8,11 @@
     border-radius: 100vmax;
     padding: 0.75em 1em;
     font-weight: $fw-bold;
-    // font-size: var(--fs-button);
     line-height: 1;
     color: $clr-neutral-100;
     background-color: $clr-accent-400;
     box-shadow: 0 1.125em 1em -1em $clr-accent-500;
+    font-size: $fs-button;
   }
 
 // .button {
