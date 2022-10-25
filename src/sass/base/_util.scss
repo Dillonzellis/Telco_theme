@@ -2,8 +2,25 @@
     --max-width: 1500px;
     --container-padding: 1rem;
   
-    width: min(var(--max-width), 100% - (var(--container-padding) * 2));
+    width: min(var(--max-width), 100% - (var(--container-padding) * 2)) !important;
     margin-inline: auto;
+  }
+
+  .even-columns {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 50em) {
+    .even-columns {
+      grid-auto-flow: column;
+      grid-auto-columns: 1fr;
+    }
+  }
+
+  .full-bleed {
+    box-shadow: 0 0 0 100vmax var(--clr-primary-400);
+    clip-path: inset(0 -100vmax);
   }
 
   .flex {
@@ -14,4 +31,6 @@
   .text-center {
     text-align: center;
   }
+
+
   

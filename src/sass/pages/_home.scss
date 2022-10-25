@@ -1,0 +1,31 @@
+@use '/src/sass/abstracts/'as *;
+
+.home-content-section {
+    margin: 5rem 0;
+
+    .text-content{
+        background-color: $clr-neutral-700;
+    }
+
+    .home-img-wrapper {
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 427px;
+            min-height: 551px;
+            background-color: $clr-primary-400;
+            position: absolute;
+            top: -49px;
+            left: 141px;
+        }
+
+        img {
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            border-radius: 3px;
+
+            width: 537px;
+            height: auto;
+        }
+    }
+}
