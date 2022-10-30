@@ -1,0 +1,68 @@
+@use '/src/sass/abstracts/'as *;
+
+// Padding & Margin
+
+.p-0{
+    padding: 0 !important;
+  }
+  
+  .pb-200{
+    padding-bottom: 0.5rem !important;
+  }
+  
+  .pb-400{
+    padding-bottom: 1rem;
+  }
+  
+  .pb-475-lg{
+    @media(min-width:$lg){
+      padding-bottom: 1.75rem;
+    }
+  }
+  
+  .mb-400{
+    margin-bottom: 1rem;
+  }
+
+//   Content Spacing
+  
+  .content-space-100{
+    padding: 0.5rem 0 !important;
+  }
+  
+  .content-space-150{
+    padding: 1rem 0 !important;
+  }
+  
+  .content-space-200{
+    padding: 1rem 0 !important;
+    @media(min-width:$lg){
+      padding: 1.5rem 0 !important;
+    }
+  }
+  
+  .content-space-400{
+    padding: 1.5rem 0 !important;
+    @media(min-width: $lg){
+      padding: 3rem 0 !important;
+    }
+  }
+  
+  .content-space-700{
+    padding: 2rem 0 !important;
+    @media(min-width: $lg){
+      padding: 10rem 0 !important;
+    }
+  }
+  
+  .content-space-0-lg{
+    @media(min-width:$lg){
+      padding: 0 !important;
+    }
+  }
+  
+  .content-space-200-lg{
+    @media(min-width:$lg){
+      padding: 1.5rem 0 !important;
+    }
+  }

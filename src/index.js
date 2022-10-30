@@ -1,4 +1,5 @@
-
+// Styles
 import './main.scss'
 
-import './js/test'
+// Js
+import './js/main'

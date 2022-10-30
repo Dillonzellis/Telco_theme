@@ -1,0 +1,45 @@
+@use '/src/sass/abstracts/'as *;
+
+// Font Sizes
+
+.fs-425{
+    font-size: $fs-425;
+  }
+  
+  .fs-450{
+    font-size: $fs-450;
+  }
+  
+// Weights
+
+  .fw-medium{
+    font-weight: $fw-medium;
+  }
+  
+  .fw-semi-bold{
+    font-weight: $fw-semi-bold;
+  }
+  
+  .fw-bold{
+    font-weight: $fw-bold;
+  }
+
+//   Color
+  
+  .clr-primary-400{
+    color: $clr-primary-400;
+  }
+  
+  .clr-neutral-100{
+    color: $clr-neutral-100;
+  }
+  
+  .clr-neutral-900{
+    color: $clr-neutral-900;
+  }
+
+  .span-highlight{
+    span{
+      color: $clr-accent-400;
+    }
+  }

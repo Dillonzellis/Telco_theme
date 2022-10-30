@@ -1,24 +1,28 @@
 {
-  "name": "telco-redesign",
+  "name": "gbd_theme",
   "version": "1.0.0",
-  "description": "Telco Theme",
+  "description": "GDB child theme for Divi Wordpress builds",
   "main": "index.js",
   "scripts": {
     "dev": "webpack",
     "watch": "webpack --watch",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "test:chrome": "npx playwright test --headed --browser=chromium",
+    "test:firefox": "npx playwright test --headed --browser=firefox",
+    "test:safari": "npx playwright test --headed --browser=webkit"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dillonzellis/Telco_theme.git"
+    "url": "git+https://github.com/Dillonzellis/GBD_Theme.git"
   },
   "author": "Dillon Ellis",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dillonzellis/Telco_theme/issues"
+    "url": "https://github.com/Dillonzellis/GBD_Theme/issues"
   },
-  "homepage": "https://github.com/Dillonzellis/Telco_theme#readme",
+  "homepage": "https://github.com/Dillonzellis/GBD_Theme#readme",
   "devDependencies": {
+    "@playwright/test": "^1.27.1",
     "css-loader": "^6.7.1",
     "mini-css-extract-plugin": "^2.6.1",
     "sass": "^1.55.0",

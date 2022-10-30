@@ -1,0 +1,23 @@
+@use '/src/sass/abstracts/'as *;
+
+.abs{
+    position: absolute !important;
+  }
+  
+  .rel{
+    position: relative;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-start {
+    text-align: start;
+  }
+  
+  .text-start-lg{
+    @media(min-width:$lg){
+      text-align: start;
+    }
+  }

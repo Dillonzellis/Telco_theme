@@ -2,22 +2,24 @@
 
 .btn {
   display: inline-flex;
-      // display: inline-block;
+  // display: inline-block;
   cursor: pointer;
   text-decoration: none;
   text-transform: capitalize;
   border: 0;
-  border-radius: 100vmax;
-  padding: 0.75em 1em;
+  border-radius: 7px;
+  padding: 0.8em 1.25em !important;
   font-weight: $fw-bold;
   line-height: 1;
-  color: $clr-neutral-100;
-  background-color: $clr-accent-400;
-  box-shadow: 0 1.125em 1em -1em $clr-accent-500;
+  // color: $clr-neutral-100;
+  // background-color: $clr-accent-400;
+  // box-shadow: 0 1.125em 1em -1em $clr-accent-500;
   font-size: $fs-button;
 
   transform: scale(1);
   transition: transform 200ms ease;
+
+  border: 3px solid $clr-primary-400;
 
   &:hover,
   &:focus {
@@ -29,33 +31,21 @@
   }
 }
 
-// .button {
-//     display: inline-block;
-//     border: 0; 
-//     font-weight: 500;
-//     // font-size: var(--fs-300);
-//     text-transform: uppercase;
-//     text-decoration: none;
-//     line-height: 1;
-//     letter-spacing: 0.04em;
-//     padding: .95em 1.75em .85em;
-//     cursor: pointer;
-//     color: white;
-//     background-color: blue;
-//     border-radius: 100vw;
-//     box-shadow: 0 .125em .5em rgba(black, .15);
-//     transform: scale(1);
-//     transition: transform 200ms ease;
+.btn-light {
+  color: $clr-primary-400;
+  background-color: $clr-neutral-100;
+  border: 3px solid $clr-primary-400;
+  box-shadow: 0 1.125em 1em -1em $clr-primary-300;
+  a{
+    color: $clr-primary-400;
+  }
+}
 
-
-
-//     &:hover,
-//     &:focus {
-//       transform: scale(1.05) translateY(-.125em);
-//       color: white;
-
-//       &::before {
-//         opacity: .3;
-//       }
-//     }
-// }
+.btn-dark {
+  color: $clr-neutral-100;
+  background-color: $clr-primary-400;
+  box-shadow: 0 1.125em 1em -1em $clr-primary-300;
+  a{
+    color: $clr-neutral-100;
+  }
+}

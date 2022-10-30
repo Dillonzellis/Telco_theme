@@ -5,7 +5,7 @@ module.exports = {
   mode: 'development',
   output:{
     // filename:"dist",
-    path: path.join(__dirname, 'GBD-theme/dist'),
+    path: path.join(__dirname, 'GBD_Theme/dist'),
   },
   plugins: [new MiniCssExtractPlugin()],
   module: {
