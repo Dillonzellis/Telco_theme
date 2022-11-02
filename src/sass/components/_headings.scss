@@ -3,46 +3,20 @@
 .primary-heading {
     font-size: $fs-primary-heading;
     font-family: $ff-primary;
-    font-weight: $fw-semi-bold;
-    color: $clr-neutral-100;
+}
+
+.primary-heading-inner {
+    font-size: $fs-primary-heading-inner;
+    font-family: $ff-primary;
 }
 
 .secondary-heading {
     font-size: $fs-secondary-heading;
     font-family: $ff-primary;
-    font-weight: $fw-bold;
 }
 
-.secondary-heading-light {
-    font-size: $fs-secondary-heading;
-    font-family: $ff-primary;
-    font-weight: $fw-bold;
-    color: $clr-neutral-100;
-}
-
-.secondary-heading-dark {
-    font-size: $fs-secondary-heading;
-    font-family: $ff-primary;
-    font-weight: $fw-bold;
-    color: $clr-primary-400;
-}
 
 .content-heading{
     font-size: $fs-content-heading;
     font-family: $ff-primary;
-    font-weight: $fw-bold;
-}
-
-.content-heading-light{
-    color: $clr-neutral-100;
-    span{
-        color: $clr-primary-400;
-    }
-}
-
-.content-heading-dark{
-    color: $clr-primary-400;
-    span{
-        color: $clr-accent-400;
-    }
 }
