@@ -1,4 +1,5 @@
 @use '/src/sass/abstracts/'as *;
+@use '/src/sass/base/' as *;
 
 .flex {
     display: flex;
@@ -6,14 +7,21 @@
   }
   
   .flex-md{
-    @media(min-width:$md){
+    @include breakpoint(md) {
       display: flex;
       gap: var(--gap, 1rem);
     }
   }
   
   .flex-lg{
-    @media(min-width:$lg){
+    @include breakpoint(lg) {
+      display: flex;
+      gap: var(--gap, 1rem);
+    }
+  }
+
+  .flex-xl{
+    @include breakpoint(xl) {
       display: flex;
       gap: var(--gap, 1rem);
     }
@@ -24,9 +32,23 @@
     gap: var(--gap, 1rem);
     flex-direction: column;
   }
+
+  .flex-col-reverse{
+    display: flex;
+    gap: var(--gap, 1rem);
+    flex-direction: column-reverse;
+  }
   
+  // .flex-col-reverse-lg{
+  //   @media(min-width:$lg){
+  //     display: flex;
+  //     gap: var(--gap, 1rem);
+  //     flex-direction: column-reverse;
+  //   }
+  // }
+
   .flex-col-lg{
-    @media(min-width:$lg){
+    @include breakpoint(lg) {
       display: flex;
       gap: var(--gap, 1rem);
       flex-direction: column;
@@ -45,8 +67,20 @@
     flex-direction: row;
   }
   
+  .flex-row-sm{
+    @include breakpoint(sm) {
+      flex-direction: row;
+    }
+  }
+
+  .flex-row-md{
+    @include breakpoint(md) {
+      flex-direction: row;
+    }
+  }
+
   .flex-row-lg{
-    @media(min-width:$lg){
+    @include breakpoint(lg) {
       flex-direction: row;
     }
   }
@@ -60,8 +94,20 @@
   }
   
   .a-items-center-lg{
-    @media(min-width:$lg){
+    @include breakpoint(lg) {
       align-items: center;
     } 
   }
+
+  .flex-wrap{
+    flex-wrap: wrap;
+  }
   
+
+  // .gap-0{
+  //   gap: 0;
+  // }
+
+  .gap-200{
+    gap: 0.5rem;
+  }

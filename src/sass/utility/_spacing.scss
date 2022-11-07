@@ -1,68 +1,135 @@
 @use '/src/sass/abstracts/'as *;
+@use '/src/sass/base/' as *;
 
 // Padding & Margin
 
-.p-0{
-    padding: 0 !important;
+.p-0 {
+  padding: 0 !important;
+}
+
+.pb-200 {
+  padding-bottom: 0.5rem !important;
+}
+
+.pb-400 {
+  padding-bottom: 1rem !important;
+}
+
+.pb-475-lg {
+ @include breakpoint(lg) {
+    padding-bottom: 1.75rem;
   }
-  
-  .pb-200{
-    padding-bottom: 0.5rem !important;
-  }
-  
-  .pb-400{
-    padding-bottom: 1rem;
-  }
-  
-  .pb-475-lg{
-    @media(min-width:$lg){
-      padding-bottom: 1.75rem;
-    }
-  }
-  
-  .mb-400{
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.mb-200 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mb-400 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-600 {
+  margin-bottom: 2rem;
+}
+
+.mb-700 {
+  margin-bottom: 3rem;
+}
+
+.mb-400-max-lg {
+  @include breakpoint-down(lg) {
     margin-bottom: 1rem;
   }
+}
+
+.mb-400-max-xl {
+  @include breakpoint-down(xl) {
+    margin-bottom: 1rem;
+  }
+}
+
+.mb-700-max-lg {
+  @include breakpoint-down(lg) {
+    margin-bottom: 3rem;
+  }
+}
+
+.mb-700-min-lg {
+ @include breakpoint(lg) {
+    margin-bottom: 3rem;
+  }
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.m-inline-auto {
+  margin-inline: auto !important;
+}
+
+// .m-inline-auto-max-lg {
+//   @include breakpoint-down(lg) {
+//     margin-inline: auto !important;
+//   }
+// }
+
+// Width
+
+.w-100-max-lg {
+  @include breakpoint(md) {
+    width: 100% !important;
+  }
+}
+
 
 //   Content Spacing
-  
-  .content-space-100{
-    padding: 0.5rem 0 !important;
-  }
-  
-  .content-space-150{
-    padding: 1rem 0 !important;
-  }
-  
-  .content-space-200{
-    padding: 1rem 0 !important;
-    @media(min-width:$lg){
-      padding: 1.5rem 0 !important;
-    }
-  }
-  
-  .content-space-400{
+
+.content-space-100 {
+  padding: 0.5rem 0 !important;
+}
+
+.content-space-150 {
+  padding: 1rem 0 !important;
+}
+
+.content-space-200 {
+  padding: 1rem 0 !important;
+
+  @include breakpoint(md) {
     padding: 1.5rem 0 !important;
-    @media(min-width: $lg){
-      padding: 3rem 0 !important;
-    }
   }
-  
-  .content-space-700{
-    padding: 2rem 0 !important;
-    @media(min-width: $lg){
-      padding: 10rem 0 !important;
-    }
+}
+
+.content-space-400 {
+  padding: 2rem 0 !important;
+
+  @include breakpoint(lg) {
+    padding: 3rem 0 !important;
   }
-  
-  .content-space-0-lg{
-    @media(min-width:$lg){
-      padding: 0 !important;
-    }
+}
+
+.content-space-700 {
+  padding: 2rem 0 !important;
+
+  @include breakpoint(lg) {
+    padding: 10rem 0 !important;
   }
-  
-  .content-space-200-lg{
-    @media(min-width:$lg){
-      padding: 1.5rem 0 !important;
-    }
+}
+
+.content-space-0-lg {
+ @include breakpoint(lg) {
+    padding: 0 !important;
   }
+}
+
+.content-space-200-lg {
+ @include breakpoint(lg) {
+    padding: 1.5rem 0 !important;
+  }
+}

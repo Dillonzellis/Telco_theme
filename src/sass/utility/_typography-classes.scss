@@ -1,3 +1,4 @@
+@use '/src/sass/base/'as *;
 @use '/src/sass/abstracts/'as *;
 
 // Font Sizes
@@ -8,6 +9,10 @@
   
   .fs-450{
     font-size: $fs-450;
+  }
+
+  .fs-500{
+    font-size: $fs-500;
   }
   
 // Weights
@@ -33,17 +38,31 @@
   .clr-neutral-100{
     color: $clr-neutral-100;
   }
-
-  .clr-neutral-700{
-    color: $clr-neutral-700;
-  }
   
   .clr-neutral-900{
     color: $clr-neutral-900;
   }
 
-  .span-highlight{
-    span{
-      color: $clr-accent-400;
-    }
-  }
+  // .span-highlight{
+  //   span{
+  //     color: $clr-accent-400;
+  //   }
+  // }
+
+  // .span-highlight-dark{
+  //   span{
+  //     color: $clr-primary-400;
+  //   }
+  // }
+
+  // .upper{
+  //   text-transform: uppercase;
+  // }
+
+  // Hyperlinks
+
+//   .highlight-a{
+//     a{
+//         color: $clr-accent-400;
+//     }
+// }

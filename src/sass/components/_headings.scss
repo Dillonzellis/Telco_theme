@@ -1,4 +1,5 @@
-@use '../abstracts/'as *;
+@use '/src/sass/abstracts/'as *;
+@use '/src/sass/base/' as *;
 
 .primary-heading {
     font-size: $fs-primary-heading;

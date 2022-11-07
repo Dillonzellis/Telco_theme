@@ -1,47 +1,62 @@
-// @use '/src/sass/abstracts/'as *;
+@use '/src/sass/abstracts/'as *;
+@use '/src/sass/base/' as *;
 
 // .carousel-section {
+//     padding: 0 !important;
 
-
-//     @media(min-width:$md) {
-//         margin-bottom: -143px;
-//         margin-top: -12px;
+//     @include breakpoint(md){
+//         margin-bottom: f.rem(-143);
+//         margin-top: f.rem(-12);
 //     }
+
+//     // @media(min-width:$md) {
+//     //     margin-bottom: -143px;
+//     //     margin-top: -12px;
+//     // }
 
 //     // icon width
 //     .et_pb_blurb_0 .et_pb_main_blurb_image .et_pb_image_wrap {
 //         width: unset;
-//         max-height: 141px;
+//         min-height: f.rem(141);
+//         width: fit-content;
 //     }
 
 //     .et_pb_blurb_1 .et_pb_main_blurb_image .et_pb_image_wrap {
 //         width: unset;
-//         max-height: 141px;
+//         min-height: f.rem(141);
+//         width: fit-content;
 //     }
 
 //     .et_pb_blurb_2 .et_pb_main_blurb_image .et_pb_image_wrap {
 //         width: unset;
-//         max-height: 141px;
+//         min-height: f.rem(141);
+//         width: fit-content;
 //     }
 
 //     .et_pb_blurb_3 .et_pb_main_blurb_image .et_pb_image_wrap {
 //         width: unset;
-//         max-height: 141px;
+//         min-height: f.rem(141);
+//         width: fit-content;
 //     }
+
+
 
 //     .et_pb_blurb_4 .et_pb_main_blurb_image .et_pb_image_wrap {
 //         width: unset;
-//         max-height: 141px;
+//         min-height: f.rem(141);
+//         width: fit-content;
 //     }
 
 //     .et_pb_blurb_5 .et_pb_main_blurb_image .et_pb_image_wrap {
 //         width: unset;
-//         max-height: 141px;
+//         min-height: f.rem(141);
+//         width: fit-content;
 //     }
 
 //     .et_pb_blurb_6 .et_pb_main_blurb_image .et_pb_image_wrap {
 //         width: unset;
-//         max-height: 141px;
+//         min-height: f.rem(141);
+//         width: fit-content;
 //     }
 
 
@@ -53,9 +68,13 @@
 //     .et_pb_blurb_0.et_pb_blurb,
 //     .et_pb_blurb_1.et_pb_blurb {
 //         margin-bottom: 1rem !important;
-//         @media(min-width:$md){
+
+//         @include breakpoint(md){
 //             margin-bottom: 3rem !important;
 //         }
+//         // @media(min-width:$md) {
+//         //     margin-bottom: 3rem !important;
+//         // }
 //     }
 
 
@@ -83,5 +102,4 @@
 //             }
 //         }
 //     }
-
 // }

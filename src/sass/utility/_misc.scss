@@ -1,7 +1,8 @@
 @use '/src/sass/abstracts/'as *;
+@use '/src/sass/base/' as *;
 
-.full-bleed {
-    box-shadow: 0 0 0 100vmax var(--clr-primary-400);
-    clip-path: inset(0 -100vmax);
-  }
+// .full-bleed {
+//     box-shadow: 0 0 0 100vmax var(--clr-primary-400);
+//     clip-path: inset(0 -100vmax);
+//   }
   
