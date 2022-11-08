@@ -70,41 +70,31 @@ The designs were created to the following widths:
 
 ## Primary Heading
 
-### Home Page
-
-#### Desktop
-
-- Font size: 3.75rem
-- Font Weight: Bold
-- Color: White: #FFFFFF
-
-#### Mobile
-
-- Font size: 1.875rem
-
 ### Inner Page
 
 #### Desktop
 
-- Font Size: 3.75rem
+- Font Size: 60px
 - Font Weight: SemiBold
 - Color: White: #FFFFFF
 
 #### Mobile
 
-- Font Size: 1.5rem
+- Font Size: 24px
 
 ## Secondary Heading
 
+### Home
+
 #### Desktop
 
-- Font Size: 2.5rem
+- Font Size: 40px
 - Font Weight: Bold
-- Color : Dark Gray: #404040
+- Color: White: #FFFFFF
 
 #### Mobile
 
-- Font Size: 1.5rem
+- Font Size: 30px
 
 ## Content Heading
 
@@ -112,10 +102,10 @@ The designs were created to the following widths:
 
 #### Desktop
 
-- Font Size: 2.25rem
+- Font Size: 36px
 - Font Weight: SemiBold
 - Color: Dark Gray: #404040
 
 #### Mobile
 
-- Font Size: 1.5rem
+- Font Size: 24px
