@@ -88,10 +88,14 @@
   .j-center{
     justify-content: center;
   }
+
+  .j-even{
+    justify-content: space-evenly;
+  }
   
-  // .a-items-center{
-  //   align-items: center;
-  // }
+  .a-items-center{
+    align-items: center;
+  }
   
   // .a-items-center-lg{
   //   @include breakpoint(lg) {
