@@ -1,0 +1,26 @@
+@use '/src/sass/abstracts/'as *;
+@use '/src/sass/base/'as *;
+
+.inner-hero {
+    .even-columns {
+        .sub-heading {
+            gap: 0.5rem;
+            &::before {
+                content: url('https://dev3.growthbydesign.org/wp-content/uploads/2022/11/plus.png');
+            }
+        }
+
+        img {
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        .img-bg {
+            top: 101px;
+            left: 74px;
+            min-width: 475px;
+            min-height: 490px;
+        }
+    }
+
+}

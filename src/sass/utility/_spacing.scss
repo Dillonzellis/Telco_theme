@@ -123,13 +123,13 @@
   }
 }
 
-// .content-space-700 {
-//   padding: 2rem 0 !important;
+.content-space-700 {
+  padding: 2rem 0 !important;
 
-//   @include breakpoint(lg) {
-//     padding: 10rem 0 !important;
-//   }
-// }
+  @include breakpoint(lg) {
+    padding: 10rem 0 !important;
+  }
+}
 
 // .content-space-0-lg {
 //  @include breakpoint(lg) {

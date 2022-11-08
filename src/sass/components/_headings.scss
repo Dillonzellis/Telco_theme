@@ -4,6 +4,9 @@
 .primary-heading {
     font-size: $fs-primary-heading;
     font-family: $ff-primary;
+    @include breakpoint(md){
+        line-height: 1.2;
+    }
 }
 
 .secondary-heading {
