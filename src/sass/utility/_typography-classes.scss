@@ -47,6 +47,10 @@
   color: $clr-neutral-100;
 }
 
+.clr-neutral-700 {
+  color: $clr-neutral-700;
+}
+
 .clr-neutral-900 {
   color: $clr-neutral-900;
 }
@@ -62,11 +66,11 @@
 }
 
 
-// .span-highlight{
-//   span{
-//     color: $clr-accent-400;
-//   }
-// }
+.span-highlight{
+  span{
+    color: $clr-primary-400;
+  }
+}
 
 // .span-highlight-dark{
 //   span{

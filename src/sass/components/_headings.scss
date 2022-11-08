@@ -17,4 +17,7 @@
 .content-heading{
     font-size: $fs-content-heading;
     font-family: $ff-primary;
+    @include breakpoint(md){
+        line-height: 1.2;
+    }
 }

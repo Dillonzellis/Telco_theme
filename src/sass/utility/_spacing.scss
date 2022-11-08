@@ -82,6 +82,10 @@
   margin-inline: auto !important;
 }
 
+.m-start-auto {
+  margin-inline-start: auto !important;
+}
+
 // .m-inline-auto-max-lg {
 //   @include breakpoint-down(lg) {
 //     margin-inline: auto !important;
@@ -127,7 +131,7 @@
   padding: 2rem 0 !important;
 
   @include breakpoint(lg) {
-    padding: 10rem 0 !important;
+    padding: 8rem 0 !important;
   }
 }
 
