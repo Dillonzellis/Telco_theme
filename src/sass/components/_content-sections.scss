@@ -1,2 +1,39 @@
 @use '/src/sass/abstracts/'as *;
-@use '/src/sass/base/' as *;
+@use '/src/sass/base/'as *;
+
+.content-section {
+    .img-wrapper {
+        img {
+            top: -60px;
+        }
+
+        .img-right{
+            border-left: 10px solid white;
+        }
+
+        .img-left{
+            border-right: 10px solid white;
+        }
+
+        .img-bg{
+            top: -110px;
+            min-width: 427px;
+            min-height: 551px;
+            z-index: -1;
+        }
+
+        .img-bg-right{
+            left: 180px;
+            border-right: 10px solid white;
+        }
+
+        .img-bg-left{
+            left: -55px;
+            border-left: 10px solid white;
+        }
+    }
+}
+
+// .inner-content-section{
+
+// }

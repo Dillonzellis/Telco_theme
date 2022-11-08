@@ -1,6 +1,7 @@
 :root{
    --clr-primary-300:hsl(203, 96%, 44%);
    --clr-primary-400: hsl(203, 100%, 32%);
+   --clr-primary-500: hsl(203, 100%, 25%);
 
    --clr-accent-300:hsl(79, 95%, 48%);
    --clr-accent-400:hsl(79, 100%, 33%);
@@ -14,6 +15,7 @@
 
 $clr-primary-300: var(--clr-primary-300);
 $clr-primary-400: var(--clr-primary-400);
+$clr-primary-500: var(--clr-primary-500);
 
 $clr-accent-300: var(--clr-accent-300);
 $clr-accent-400: var(--clr-accent-400);

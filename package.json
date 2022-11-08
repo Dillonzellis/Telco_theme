@@ -4,9 +4,10 @@
   "description": "GDB child theme for Divi Wordpress builds",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack",
+    "dev": "webpack serve",
+    "build": "webpack",
     "watch": "webpack --watch",
-    "build": "webpack --mode=production",
+    "production": "webpack --mode=production",
     "test:chrome": "npx playwright test --headed --browser=chromium",
     "test:firefox": "npx playwright test --headed --browser=firefox",
     "test:safari": "npx playwright test --headed --browser=webkit"
@@ -29,6 +30,7 @@
     "sass-loader": "^13.1.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
   }
 }
