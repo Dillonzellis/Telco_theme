@@ -29,3 +29,15 @@
     gap: 1rem;
   }
 }
+
+.col-1{
+  @include breakpoint-down(lg){
+    order: 1;
+  }
+}
+
+.col-2{
+  @include breakpoint-down(lg){
+    order: 2;
+  }
+}

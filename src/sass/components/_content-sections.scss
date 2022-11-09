@@ -8,11 +8,17 @@
         }
 
         .img-right {
-            border-left: 10px solid white;
+
+            @include breakpoint(lg) {
+                border-left: 10px solid white;
+            }
         }
 
         .img-left {
-            border-right: 10px solid white;
+
+            @include breakpoint(lg) {
+                border-right: 10px solid white;
+            }
         }
 
         .img-bg {
