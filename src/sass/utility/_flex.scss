@@ -33,6 +33,14 @@
     flex-direction: column;
   }
 
+  .flex-col-max-sm{
+    @include breakpoint-down(sm){
+      display: flex;
+      gap: var(--gap, 1rem);
+      flex-direction: column;
+    }
+  }
+
   // .flex-col-reverse{
   //   display: flex;
   //   gap: var(--gap, 1rem);
@@ -67,17 +75,17 @@
   //   flex-direction: row;
   // }
   
-  // .flex-row-sm{
-  //   @include breakpoint(sm) {
-  //     flex-direction: row;
-  //   }
-  // }
+  .flex-row-sm{
+    @include breakpoint(sm) {
+      flex-direction: row;
+    }
+  }
 
-  // .flex-row-md{
-  //   @include breakpoint(md) {
-  //     flex-direction: row;
-  //   }
-  // }
+  .flex-row-md{
+    @include breakpoint(md) {
+      flex-direction: row;
+    }
+  }
 
   // .flex-row-lg{
   //   @include breakpoint(lg) {
@@ -108,9 +116,9 @@
   }
   
 
-  // .gap-0{
-  //   gap: 0;
-  // }
+  .gap-0{
+    gap: 0;
+  }
 
   .gap-200{
     gap: 0.5rem;
