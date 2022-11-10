@@ -1,6 +1,54 @@
 @use '/src/sass/abstracts/'as *;
 @use '/src/sass/base/' as *;
 
+
+.card{
+    text-align: center;
+
+    .card-content-wrapper{
+        width: 180px;
+        height: 180px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        border: 6px solid $clr-accent-400;
+        border-radius: 100vmax;
+    
+        margin-inline: auto;
+    
+        .card-title{
+            width: 15ch;
+        }
+    }
+}
+
+.divilife-3-col-feature-blurb-slider .slick-arrow:before{
+    color: $clr-neutral-700 !important;
+    opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button{
+    background-color:$clr-primary-400 !important;
+}
+
+
+// .slick-dots{
+
+//     li{
+//         display: flex;
+//         button{
+//             display: none;
+//         }
+//     }
+
+// }
+
+
+
 // .carousel-section {
 //     padding: 0 !important;
 
