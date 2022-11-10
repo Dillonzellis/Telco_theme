@@ -8,14 +8,12 @@
         }
 
         .img-right {
-
             @include breakpoint(lg) {
                 border-left: 10px solid white;
             }
         }
 
         .img-left {
-
             @include breakpoint(lg) {
                 border-right: 10px solid white;
             }
@@ -23,8 +21,9 @@
 
         .img-bg {
             top: -110px;
-            min-width: 427px;
-            min-height: 551px;
+            // width: minmax(100px, rem(427));
+            width: max(100px, 427px);
+            height: 551px;
             z-index: -1;
         }
 
