@@ -2,8 +2,11 @@
 @use '/src/sass/base/'as *;
 
 .inner-hero {
+
+    
     @include breakpoint(lg) {
         background-color: $clr-primary-400;
+        padding: 8rem 0;
     }
 
     .even-columns {
