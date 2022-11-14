@@ -4,7 +4,15 @@
 .content-section {
     .img-wrapper {
         img {
-            top: -60px;
+        
+            margin-inline: auto;
+            @include breakpoint(lg){
+                position: absolute;
+            }
+
+            @media(min-width:em(1067.8)){
+                top: -60px;
+            }
         }
 
         .img-right {
