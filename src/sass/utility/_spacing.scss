@@ -1,5 +1,5 @@
-@use '/src/sass/abstracts/'as *;
-@use '/src/sass/base/' as *;
+@use "/src/sass/abstracts/" as *;
+@use "/src/sass/base/" as *;
 
 // Padding & Margin
 
@@ -7,7 +7,7 @@
   padding: 0 !important;
 }
 
-.p-vert-0{
+.p-vert-0 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
@@ -30,13 +30,13 @@
   margin: 0 !important;
 }
 
-.mb-0{
+.mb-0 {
   margin-bottom: 0 !important;
 }
 
-// .mb-200 {
-//   margin-bottom: 0.5rem !important;
-// }
+.mb-200 {
+  margin-bottom: 0.5rem !important;
+}
 
 // .mb-400 {
 //   margin-bottom: 1rem !important;
@@ -78,6 +78,12 @@
   margin-top: 0 !important;
 }
 
+.mt--450-max-lg {
+  @include breakpoint-down(lg) {
+    margin-top: -1.5rem;
+  }
+}
+
 .m-inline-auto {
   margin-inline: auto !important;
 }
@@ -94,12 +100,17 @@
 
 // Width
 
+.ch-max-width {
+  @include breakpoint(lg) {
+    max-width: 56ch;
+  }
+}
+
 // .w-100-max-lg {
 //   @include breakpoint(md) {
 //     width: 100% !important;
 //   }
 // }
-
 
 //   Content Spacing
 
@@ -120,7 +131,7 @@
 }
 
 .content-space-400 {
-  padding: 2rem 0 !important;
+  padding: 1.5rem 0 !important;
 
   @include breakpoint(lg) {
     padding: 3rem 0 !important;

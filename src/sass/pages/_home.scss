@@ -1,10 +1,30 @@
-@use '/src/sass/abstracts/'as *;
-@use '/src/sass/base/' as *;
+@use "/src/sass/abstracts/" as *;
+@use "/src/sass/base/" as *;
 
-.checking{
-    @include breakpoint-down(lg){
-        background-color: $clr-primary-400;
-    }
+.checking {
+  margin-bottom: 3rem;
+  @include breakpoint-down(lg) {
+    background-color: $clr-primary-400;
+  }
 
-    
+  @include breakpoint(xl) {
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+  }
+}
+
+.auto-loans {
+  margin-bottom: 1.5rem;
+
+  @include breakpoint-down(lg) {
+    background-color: $clr-neutral-700;
+  }k
+
+  @include breakpoint(lg) {
+    margin-bottom: 3rem;
+  }
+
+  @include breakpoint(xl) {
+    margin-bottom: 10rem;
+  }
 }
