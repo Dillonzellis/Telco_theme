@@ -1,5 +1,5 @@
-@use '/src/sass/base/'as *;
-@use '/src/sass/abstracts/'as *;
+@use "/src/sass/base/" as *;
+@use "/src/sass/abstracts/" as *;
 
 // Font Sizes
 
@@ -21,6 +21,14 @@
 
 .fs-625 {
   font-size: $fs-625;
+}
+
+.fs-650 {
+  font-size: $fs-650;
+}
+
+.fs-900 {
+  font-size: $fs-900;
 }
 
 // Weights
@@ -57,17 +65,16 @@
 
 // Font Family
 
-.ff-primary{
+.ff-primary {
   font-family: $ff-primary;
 }
 
-.ff-accent{
+.ff-accent {
   font-family: $ff-accent;
 }
 
-
-.span-highlight{
-  span{
+.span-highlight {
+  span {
     color: $clr-primary-400;
   }
 }
@@ -84,8 +91,8 @@
 
 // Hyperlinks
 
-.neutral-100-a{
-  a{
+.neutral-100-a {
+  a {
     color: $clr-neutral-100;
   }
 }
@@ -95,3 +102,9 @@
 //         color: $clr-accent-400;
 //     }
 // }
+
+// Line Heights
+
+.lh-400 {
+  line-height: 1 !important;
+}
