@@ -1,0 +1,23 @@
+@use '/src/sass/abstracts/' as *;
+@use '/src/sass/base/' as *;
+
+.login {
+    width: 335px;
+    border-radius: 3px;
+
+    &__header {
+        padding: 1.3rem 0;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    &__btn {
+        background-color: $clr-primary-400;
+        padding: 0.8em 4em;
+        border-radius: 100vmax;
+        width: max-content;
+
+        a {
+            color: $clr-neutral-100;
+        }
+    }
+}
