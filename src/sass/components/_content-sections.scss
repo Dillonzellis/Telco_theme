@@ -130,12 +130,12 @@
     top: -25px;
   }
 
-  .img-bg-left {
-    left: -25px;
-  }
+  // .img-bg-left {
+  //   left: -25px;
+  // }
 
   .img-bg-right {
-    right: -25px;
+    right: 0;
   }
 
   .img-bg-accent {
@@ -157,21 +157,21 @@
   .img-wrapper {
     position: relative;
 
-    @include breakpoint(lg) {
-      &::before {
-        content: "";
-        box-shadow: none;
-        z-index: -1;
-        position: absolute;
-        width: 80%;
-        height: 60%;
-        background-color: var(--clr-primary-400);
-        top: 75%;
-        right: left;
-        left: -10px;
-        border-radius: 3px;
-      }
-    }
+    // @include breakpoint(lg) {
+    //   &::before {
+    //     content: "";
+    //     box-shadow: none;
+    //     z-index: -1;
+    //     position: absolute;
+    //     width: 80%;
+    //     height: 60%;
+    //     background-color: var(--clr-primary-400);
+    //     top: 75%;
+    //     right: left;
+    //     left: -10px;
+    //     border-radius: 3px;
+    //   }
+    // }
 
     @include breakpoint(xxl) {
       &::before {
@@ -180,12 +180,12 @@
 
         z-index: -1;
         position: absolute;
-        width: 80%;
+        width: 60%;
         height: 60%;
         background-color: $clr-primary-400;
         left: unset;
         top: 75%;
-        right: 1.5%;
+        right: 10%;
 
         border-radius: 3px;
       }
