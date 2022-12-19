@@ -17,10 +17,6 @@
 
   width: min(var(--max-width), 100% - (var(--container-padding) * 2)) !important;
   margin-inline: auto;
-
-  @include breakpoint(lg) {
-    --container-padding: 3rem;
-  }
 }
 
 .container-sm {
@@ -39,6 +35,12 @@
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
     gap: 1rem;
+  }
+
+  @include breakpoint(xl) {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 1.5rem;
   }
 }
 
