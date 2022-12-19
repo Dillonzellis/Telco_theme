@@ -1,9 +1,9 @@
-@use '/src/sass/abstracts/'as *;
-@use '/src/sass/base/'as *;
+@use '/src/sass/abstracts/' as *;
+@use '/src/sass/base/' as *;
 
 .inner-hero {
 
-    
+
     @include breakpoint(lg) {
         background-color: $clr-primary-400;
         padding: 8rem 0;
@@ -70,11 +70,12 @@
                         box-shadow: none;
                         border-radius: 3px;
 
-                        height: 145%;
+                        // height: 145%;
                         width: 65%;
 
                         left: 10%;
-                        top: 100%;
+                        top: 80%;
+                        min-height: 80%;
                     }
                 }
             }
