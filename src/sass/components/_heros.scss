@@ -1,9 +1,9 @@
-@use '/src/sass/abstracts/'as *;
-@use '/src/sass/base/'as *;
+@use '/src/sass/abstracts/' as *;
+@use '/src/sass/base/' as *;
 
 .inner-hero {
 
-    
+
     @include breakpoint(lg) {
         background-color: $clr-primary-400;
         padding: 8rem 0;
@@ -75,6 +75,7 @@
 
                         left: 10%;
                         top: 80%;
+
                     }
                 }
             }
