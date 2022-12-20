@@ -97,7 +97,21 @@
 
 .neutral-100-a {
   a {
-    color: $clr-neutral-100;
+    color: $clr-neutral-100 !important;
+  }
+}
+
+.primary-400-a {
+  a {
+    color: $clr-primary-400 !important;
+  }
+}
+
+.neutral-100-a-min-lg {
+  @include breakpoint(lg) {
+    a {
+      color: $clr-neutral-100 !important;
+    }
   }
 }
 
@@ -111,4 +125,8 @@
 
 .lh-400 {
   line-height: 1 !important;
+}
+
+.underline {
+  text-decoration: underline !important;
 }
