@@ -31,6 +31,13 @@
   }
 }
 
+.bg-fix::before {
+  @include breakpoint(xxl) {
+    top: 170% !important;
+    min-height: 90% !important;
+  }
+}
+
 .space {
   min-height: 250px;
 }
