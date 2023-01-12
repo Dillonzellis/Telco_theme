@@ -6,10 +6,13 @@
 
     @include breakpoint(lg) {
         background-color: $clr-primary-400;
-        padding: 8rem 0;
+        padding: 3rem 0;
     }
 
     .even-columns {
+        @include breakpoint-down(xl){
+            grid-auto-columns:unset;
+        }
         .content-col {
             padding: 1.5rem 0;
             margin-bottom: 1.5rem;

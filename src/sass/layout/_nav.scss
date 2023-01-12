@@ -1,7 +1,13 @@
 @use '/src/sass/abstracts/' as *;
 @use '/src/sass/base/' as *;
 
-
+.top-nav{
+    @include breakpoint-down(sm-500){
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: end;
+    }
+}
 
 #mega-menu-primary-menu {
     @include breakpoint(lg) {

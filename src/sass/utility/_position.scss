@@ -67,3 +67,11 @@
     display: block !important;
   }
 }
+
+.display-xl-500 {
+  display: none !important;
+
+  @include breakpoint(xl-500) {
+    display: block !important;
+  }
+}
