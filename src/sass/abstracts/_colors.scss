@@ -1,4 +1,5 @@
 :root{
+   --clr-primary-100:hsl(203, 96%, 98%);
    --clr-primary-300:hsl(203, 96%, 44%);
    --clr-primary-400: hsl(203, 100%, 32%);
    --clr-primary-500: hsl(203, 100%, 25%);
@@ -13,6 +14,7 @@
    --clr-neutral-900:hsl(0, 0%, 0%);
 }
 
+$clr-primary-100: var(--clr-primary-100);
 $clr-primary-300: var(--clr-primary-300);
 $clr-primary-400: var(--clr-primary-400);
 $clr-primary-500: var(--clr-primary-500);
