@@ -22,3 +22,11 @@
     width: 70%;
   }
 }
+
+.hero-shadow {
+  @include breakpoint(xl){
+    -webkit-box-shadow: -69px 70px 0px -53px $clr-neutral-400;
+    -moz-box-shadow: -69px 70px 0px -53px $clr-neutral-400;
+    box-shadow: -69px 70px 0px -53px $clr-neutral-400;
+  }
+}

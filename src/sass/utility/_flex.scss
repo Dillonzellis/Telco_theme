@@ -146,6 +146,12 @@
   gap: 2rem;
 }
 
+.xl-gap-500 {
+  @include breakpoint(xl) {
+    gap: 2rem;
+  }
+}
+
 .grid{
   display: grid;
 }

@@ -48,6 +48,15 @@
   }
 }
 
+.xl-even-columns {
+  display: grid;
+
+  @include breakpoint(xl) {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}
+
 .even-columns-nav {
   display: grid;
 

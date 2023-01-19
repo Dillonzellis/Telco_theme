@@ -5,6 +5,10 @@
   position: absolute !important;
 }
 
+.-translate-x-50 {
+  transform: translateX(-50%);
+}
+
 .rel {
   position: relative;
 }
@@ -40,6 +44,17 @@
 // .z-200{
 //   z-index: 200;
 // }
+
+// .hidden{
+//   display: none;;
+// }
+
+.xl-block{
+  display: none;
+  @include breakpoint(xl) {
+    display: block;
+  }
+}
 
 .display-lg {
   display: none !important;

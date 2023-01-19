@@ -17,10 +17,20 @@
   padding-bottom: 1rem;
 }
 
-.py-400 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.py-450{
+  padding-block: 1.5rem;
 }
+
+.py-600 {
+padding-block: 3rem;
+}
+
+.md-py-600 {
+  @include breakpoint(md) {
+    padding-block: 3rem;
+  }
+}
+
 .px-400{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -184,3 +194,7 @@
 //     padding: 1.5rem 0 !important;
 //   }
 // }
+
+.w-screen{
+  width: 100vw;
+}
