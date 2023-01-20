@@ -1,6 +1,5 @@
-@use '/src/sass/abstracts/' as *;
-@use '/src/sass/base/' as *;
-
+@use "/src/sass/abstracts/" as *;
+@use "/src/sass/base/" as *;
 
 .wide-container {
   --max-width: 1750px;
@@ -9,7 +8,6 @@
   width: min(var(--max-width), 100% - (var(--container-padding) * 2)) !important;
   margin-inline: auto;
 }
-
 
 .container-de {
   --max-width: 1500px;
@@ -32,7 +30,7 @@
 }
 
 .lg-grid-cols-2 {
-  @include breakpoint(lg){
+  @include breakpoint(lg) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -94,6 +92,18 @@
 }
 
 .col-2 {
+  @include breakpoint-down(lg) {
+    order: 2;
+  }
+}
+
+.lg-max-order-1 {
+  @include breakpoint-down(lg) {
+    order: 1;
+  }
+}
+
+.lg-max-order-2 {
   @include breakpoint-down(lg) {
     order: 2;
   }

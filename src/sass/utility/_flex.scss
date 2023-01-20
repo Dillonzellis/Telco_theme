@@ -146,12 +146,20 @@
   gap: 2rem;
 }
 
-.gap-600 {
+.gap-600{
   gap: 3rem;
 }
 
-.gap-5{
-  gap: 5rem;
+.md-gap-600 {
+  @include breakpoint(md){
+    gap: 3rem;
+  }
+}
+
+.lg-gap-5{
+  @include breakpoint(lg){
+    gap: 5rem;
+  } 
 }
 
 .xl-gap-500 {
