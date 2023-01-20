@@ -36,6 +36,7 @@
   -webkit-box-shadow: -85px -4px 0px -30px $clr-primary-400, 85px -4px 0px -30px $clr-primary-400;
   -moz-box-shadow: -85px -4px 0px -30px $clr-primary-400, 85px -4px 0px -30px $clr-primary-400;
   box-shadow: -85px -4px 0px -30px $clr-primary-400, 85px -4px 0px -30px $clr-primary-400;
+
   @include breakpoint(md) {
     -webkit-box-shadow: -100px 85px 0px -67px $clr-primary-400, -100px -85px 0px -67px $clr-primary-400;
     -moz-box-shadow: -100px 85px 0px -67px $clr-primary-400, -100px -85px 0px -67px $clr-primary-400;
@@ -43,3 +44,14 @@
   }
 }
 
+.content-shadow-right {
+  -webkit-box-shadow: -85px -4px 0px -30px $clr-neutral-400, 85px -4px 0px -30px $clr-neutral-400;
+  -moz-box-shadow: -85px -4px 0px -30px $clr-neutral-400, 85px -4px 0px -30px $clr-neutral-400;
+  box-shadow: -85px -4px 0px -30px $clr-neutral-400, 85px -4px 0px -30px $clr-neutral-400;
+
+  @include breakpoint(md) {
+    -webkit-box-shadow: 100px 85px 0px -67px $clr-neutral-400, 100px -85px 0px -67px $clr-neutral-400;
+    -moz-box-shadow: 100px 85px 0px -67px $clr-neutral-400, 100px -85px 0px -67px $clr-neutral-400;
+    box-shadow: 100px 85px 0px -67px $clr-neutral-400, 100px -85px 0px -67px $clr-neutral-400;
+  }
+}

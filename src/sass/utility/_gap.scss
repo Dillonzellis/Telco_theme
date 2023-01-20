@@ -1,0 +1,14 @@
+@use "/src/sass/abstracts/" as *;
+@use "/src/sass/base/" as *;
+
+.gap-0 {
+    gap: 0;
+}
+
+.gap-05 {
+    gap: 0.5rem;
+}
+
+.gap-1 {
+    gap: 1rem;
+}

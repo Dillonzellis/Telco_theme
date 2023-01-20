@@ -5,6 +5,7 @@
   .img-wrapper {
     img {
       margin-inline: auto;
+
       @include breakpoint(xl) {
         position: absolute;
       }
@@ -193,11 +194,7 @@
   }
 }
 
-.styled-list{
-    list-style-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2022/11/plus-clear.png");
-    margin-left: 1.5rem;
-
-    li {
-      margin-bottom: 0.25rem;
-    }
+.styled-list {
+  list-style-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2022/11/plus-clear.png");
+  margin-left: 1.5rem;
 }

@@ -1,0 +1,20 @@
+@use "/src/sass/abstracts/" as *;
+@use "/src/sass/base/" as *;
+
+.lg-mb-2 {
+    @include breakpoint(lg) {
+        margin-bottom: 2rem;
+    }
+}
+
+// .xl-mb-2 {
+//     @include breakpoint(xl) {
+//         margin-bottom: 2rem;
+//     }
+// }
+
+.xxl-mb-2 {
+    @include breakpoint(xxl) {
+        margin-bottom: 2rem;
+    }
+}

@@ -128,9 +128,7 @@
   flex-wrap: wrap;
 }
 
-.gap-0 {
-  gap: 0;
-}
+
 
 .gap-100-max-lg {
   @include breakpoint-down(lg) {
