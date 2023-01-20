@@ -1,6 +1,9 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
+
+// Background Colors
+
 // .bgc-primary-300{
 //     background-color: $clr-primary-300;
 //   }
@@ -31,6 +34,12 @@
   background-color: $clr-neutral-700;
 }
 
+.lg-bgc-neutral-700 {
+  @include breakpoint(lg) {
+    background-color: $clr-neutral-700;
+  }
+}
+
 .bgc-neutral-700-min-lg {
   @include breakpoint(lg) {
     background-color: $clr-neutral-700;
@@ -40,3 +49,11 @@
 // .bgc-primary-gradient{
 //   background: linear-gradient(359.28deg, #1A4789 11.87%, #000000 194.74%);
 // }
+
+// Text Colors
+
+.lg-clr-neutral-100 {
+  @include breakpoint(lg) {
+    color: $clr-neutral-100;
+  }
+}

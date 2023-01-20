@@ -1,6 +1,12 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
+
+.mb-05 {
+    margin-bottom: 0.5rem;
+}
+
+
 .lg-mb-2 {
     @include breakpoint(lg) {
         margin-bottom: 2rem;

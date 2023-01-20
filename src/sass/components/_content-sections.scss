@@ -195,6 +195,12 @@
 }
 
 .styled-list {
-  list-style-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2022/11/plus-clear.png");
+  list-style-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2023/01/li-icon.png");
   margin-left: 1.5rem;
+}
+
+.styled-list-accent {
+  @include breakpoint(lg) {
+    list-style-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2023/01/li-icon-accent.png");
+  }
 }

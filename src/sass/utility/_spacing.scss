@@ -18,12 +18,12 @@
   padding-bottom: 1rem;
 }
 
-.py-450{
+.py-450 {
   padding-block: 1.5rem;
 }
 
 .py-600 {
-padding-block: 3rem;
+  padding-block: 3rem;
 }
 
 .md-py-600 {
@@ -32,7 +32,7 @@ padding-block: 3rem;
   }
 }
 
-.px-400{
+.px-400 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -55,13 +55,13 @@ padding-block: 3rem;
   margin: 0 !important;
 }
 
-.lg-max-mx-auto{
+.lg-max-mx-auto {
   @include breakpoint-down(lg) {
     margin-inline: auto;
   }
 }
 
-.mx-auto{
+.mx-auto {
   margin-inline: auto;
 }
 
@@ -160,6 +160,16 @@ padding-block: 3rem;
   }
 }
 
+// Heights
+
+.h-sreen {
+  height: 100vh;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
 
 
 // .w-100-max-lg {
@@ -214,6 +224,6 @@ padding-block: 3rem;
 //   }
 // }
 
-.w-screen{
+.w-screen {
   width: 100vw;
 }

@@ -17,7 +17,7 @@
   text-align: center;
 }
 
-.text-right{
+.text-right {
   text-align: right;
 }
 
@@ -49,8 +49,9 @@
 //   display: none;;
 // }
 
-.xl-block{
+.xl-block {
   display: none;
+
   @include breakpoint(xl) {
     display: block;
   }
@@ -93,4 +94,18 @@
   @include breakpoint(xl-500) {
     display: block !important;
   }
+}
+
+// Scroll Behavior
+
+.snap-y {
+  scroll-snap-type: y var(--tw-scroll-snap-strictness);
+}
+
+.snap-mandatory {
+  --tw-scroll-snap-strictness: mandatory;
+}
+
+.snap-center {
+  scroll-snap-align: center;
 }
