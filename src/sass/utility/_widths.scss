@@ -1,8 +1,6 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
-.flex {
-  display: flex;
+.max-width-ch-70 {
+    max-width: 70ch;
 }
-
-

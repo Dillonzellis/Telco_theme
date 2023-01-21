@@ -12,13 +12,6 @@
     gap: 1rem;
 }
 
-// .modal-window-content{
-//     @include breakpoint(40em){
-//         padding: 1rem 2rem;
-//     }
-// }
-
-
 @media(min:40em) {
     .modal-window-content {
         padding: 1rem 2rem;
@@ -44,29 +37,3 @@
     background-color: $clr-primary-400;
     color: $clr-neutral-100;
 }
-
-/* custom modal */
-//   dialog {
-//     padding: 0;
-//   }
-
-//   .modal {
-//     width: 50ch;
-//   }
-
-//   .modal-content {
-//     padding: 1rem;
-//   }
-
-//   .modal-header {
-//     font-size: $fs-600;
-//   }
-
-//   .close-btn {
-//     position: absolute;
-//     right: 0;
-//   }
-
-//   .close-btn>img {
-//     height: 50px;
-//   }

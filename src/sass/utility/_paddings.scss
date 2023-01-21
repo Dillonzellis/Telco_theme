@@ -1,0 +1,69 @@
+@use "/src/sass/abstracts/" as *;
+@use "/src/sass/base/" as *;
+
+.pb-1 {
+    padding-bottom: 1rem
+}
+
+.md-pb-2 {
+    @include breakpoint(md) {
+        padding-bottom: 2rem;
+    }
+}
+
+.pt-2 {
+    padding-top: 2rem
+}
+
+.md-pt-3 {
+    @include breakpoint(md) {
+        padding-top: 3rem;
+    }
+}
+
+.py-1 {
+    padding-block: 1rem
+}
+
+.py-1-5 {
+    padding-block: 1.5rem
+}
+
+.py-2 {
+    padding-block: 2rem
+}
+
+.md-py-2 {
+    @include breakpoint(md) {
+        padding-block: 2rem;
+    }
+}
+
+.py-3 {
+    padding-block: 3rem
+}
+
+
+.md-py-3 {
+    @include breakpoint(md) {
+        padding-block: 3rem;
+    }
+}
+
+.md-py-5 {
+    @include breakpoint(md) {
+        padding-block: 5rem;
+    }
+}
+
+.xl-py-5 {
+    @include breakpoint(xl) {
+        padding-block: 5rem;
+    }
+}
+
+.md-py-7 {
+    @include breakpoint(md) {
+        padding-block: 7rem;
+    }
+}

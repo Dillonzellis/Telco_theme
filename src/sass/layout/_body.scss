@@ -1,8 +1,10 @@
-@use '/src/sass/abstracts/'as *;
+@use '/src/sass/abstracts/' as *;
 @use '/src/sass/base/' as *;
 
-body{
-    font-size: $fs-body;
-    font-family: $ff-body;
-    color: $clr-neutral-900;
+body {
+    font-family: $ff-primary;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $clr-neutral-700;
+    font-weight: $fw-regular;
 }

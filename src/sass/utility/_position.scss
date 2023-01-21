@@ -1,7 +1,8 @@
 @use '/src/sass/abstracts/' as *;
 @use '/src/sass/base/' as *;
 
-.abs {
+// POSITION
+.absolute {
   position: absolute !important;
 }
 
@@ -9,22 +10,17 @@
   transform: translateX(-50%);
 }
 
-.rel {
+.relative {
   position: relative;
 }
 
+// TEXT ALIGNMENT
 .text-center {
   text-align: center;
 }
 
 .text-right {
   text-align: right;
-}
-
-.text-center-max-lg {
-  @include breakpoint-down(lg) {
-    text-align: center;
-  }
 }
 
 .text-start {
@@ -37,75 +33,17 @@
   }
 }
 
-.z-100 {
-  z-index: 100;
-}
-
-// .z-200{
-//   z-index: 200;
+// Z INDEX
+// .z-100 {
+//   z-index: 100;
 // }
 
-// .hidden{
-//   display: none;;
-// }
 
+// DISPLAY
 .xl-block {
   display: none;
 
   @include breakpoint(xl) {
     display: block;
   }
-}
-
-.display-lg {
-  display: none !important;
-
-  @include breakpoint(lg) {
-    display: block !important;
-  }
-}
-
-// .display-flex-lg{
-//   display: none !important;
-//   @media(min-width: $lg){
-//     display: flex !important;
-//   }
-// }
-
-.display-flex-xl {
-  display: none !important;
-
-  @include breakpoint(xl) {
-    display: flex !important;
-  }
-}
-
-.display-xl {
-  display: none !important;
-
-  @include breakpoint(xl) {
-    display: block !important;
-  }
-}
-
-.display-xl-500 {
-  display: none !important;
-
-  @include breakpoint(xl-500) {
-    display: block !important;
-  }
-}
-
-// Scroll Behavior
-
-.snap-y {
-  scroll-snap-type: y var(--tw-scroll-snap-strictness);
-}
-
-.snap-mandatory {
-  --tw-scroll-snap-strictness: mandatory;
-}
-
-.snap-center {
-  scroll-snap-align: center;
 }

@@ -1,43 +1,58 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
-.full-bleed-neutral-700 {
-  box-shadow: 0 0 0 100max $clr-primary-400;
-  clip-path: inset(0 -100vmax);
+// LISTS
+.styled-list {
+  list-style-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2023/01/li-icon.png");
+  margin-left: 1.5rem;
+}
 
+.lg-styled-list-accent {
   @include breakpoint(lg) {
-    box-shadow: 0 0 0 100vmax $clr-neutral-700;
-    clip-path: inset(0 -100vmax);
-  }
-
-  @include breakpoint(xl) {
-    box-shadow: 0 0 0 45vmax $clr-neutral-700;
-    clip-path: inset(0 -100vmax);
+    list-style-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2023/01/li-icon-accent.png");
   }
 }
 
-.full-bleed-primary-400 {
-  box-shadow: 0 0 0 100vmax $clr-neutral-700;
-  clip-path: inset(0 -100vmax);
 
-  @include breakpoint(lg) {
-    box-shadow: 0 0 0 100vmax $clr-primary-400;
-    clip-path: inset(0 -100vmax);
-  }
 
-  @include breakpoint(xl) {
-    box-shadow: 0 0 0 48vmax $clr-primary-400;
-    clip-path: inset(0 -100vmax);
-  }
-}
+// FULL BLEED
+// .full-bleed-neutral-700 {
+//   box-shadow: 0 0 0 100max $clr-primary-400;
+//   clip-path: inset(0 -100vmax);
 
-.bg-fix::before {
-  @include breakpoint(xxl) {
-    top: 170% !important;
-    min-height: 90% !important;
-  }
-}
+//   @include breakpoint(lg) {
+//     box-shadow: 0 0 0 100vmax $clr-neutral-700;
+//     clip-path: inset(0 -100vmax);
+//   }
+
+//   @include breakpoint(xl) {
+//     box-shadow: 0 0 0 45vmax $clr-neutral-700;
+//     clip-path: inset(0 -100vmax);
+//   }
+// }
+
+// .full-bleed-primary-400 {
+//   box-shadow: 0 0 0 100vmax $clr-neutral-700;
+//   clip-path: inset(0 -100vmax);
+
+//   @include breakpoint(lg) {
+//     box-shadow: 0 0 0 100vmax $clr-primary-400;
+//     clip-path: inset(0 -100vmax);
+//   }
+
+//   @include breakpoint(xl) {
+//     box-shadow: 0 0 0 48vmax $clr-primary-400;
+//     clip-path: inset(0 -100vmax);
+//   }
+// }
+
+// .bg-fix::before {
+//   @include breakpoint(xxl) {
+//     top: 170% !important;
+//     min-height: 90% !important;
+//   }
+// }
 
 .space {
-  min-height: 250px;
+  min-height: 500px;
 }

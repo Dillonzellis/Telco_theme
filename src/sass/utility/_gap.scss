@@ -13,8 +13,34 @@
     gap: 1rem;
 }
 
+.gap-2 {
+    gap: 2rem;
+}
+
 .xl-gap-2 {
     @include breakpoint(xl) {
         gap: 2rem;
+    }
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
+.md-gap-3 {
+    @include breakpoint(md) {
+        gap: 3rem;
+    }
+}
+
+.xl-gap-3 {
+    @include breakpoint(xl) {
+        gap: 3rem;
+    }
+}
+
+.lg-gap-5 {
+    @include breakpoint(lg) {
+        gap: 5rem;
     }
 }

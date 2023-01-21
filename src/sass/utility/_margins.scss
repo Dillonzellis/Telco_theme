@@ -2,6 +2,10 @@
 @use "/src/sass/base/" as *;
 
 
+.mx-auto {
+    margin-inline: auto;
+}
+
 .mb-05 {
     margin-bottom: 0.5rem;
 }
@@ -19,8 +23,8 @@
 //     }
 // }
 
-.xxl-mb-2 {
-    @include breakpoint(xxl) {
-        margin-bottom: 2rem;
-    }
-}
+// .xxl-mb-2 {
+//     @include breakpoint(xxl) {
+//         margin-bottom: 2rem;
+//     }
+// }
