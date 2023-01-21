@@ -25,15 +25,15 @@
 //   background-color: $clr-neutral-400;
 // }
 
-// .bgc-neutral-700 {
-//   background-color: $clr-neutral-700;
-// }
+.bgc-neutral-700 {
+  background-color: $clr-neutral-700;
+}
 
-// .lg-bgc-neutral-700 {
-//   @include breakpoint(lg) {
-//     background-color: $clr-neutral-700;
-//   }
-// }
+.lg-bgc-neutral-700 {
+  @include breakpoint(lg) {
+    background-color: $clr-neutral-700;
+  }
+}
 
 // .bgc-neutral-700-min-lg {
 //   @include breakpoint(lg) {
