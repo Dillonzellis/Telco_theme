@@ -36,14 +36,40 @@
       54px 52px 0px 0px $clr-primary-400,
       64px 52px 0px 0px #fff,
       64px -52px 0px 0px #fff;
-    ;
+    -webkit-box-shadow: -190px -250px 0px -190px rgb(255, 255, 255), -190px 250px 0px -190px rgb(255, 255, 255), 12px 10px 21px -9px rgba(0, 0, 0, 0.75), 54px -52px 0px 0px $clr-primary-400,
+      54px 52px 0px 0px $clr-primary-400,
+      64px 52px 0px 0px #fff,
+      64px -52px 0px 0px #fff;
+
+    -moz-box-shadow: -190px -250px 0px -190px rgb(255, 255, 255), -190px 250px 0px -190px rgb(255, 255, 255), 12px 10px 21px -9px rgba(0, 0, 0, 0.75), 54px -52px 0px 0px $clr-primary-400,
+      54px 52px 0px 0px $clr-primary-400,
+      64px 52px 0px 0px #fff,
+      64px -52px 0px 0px #fff;
   }
 
-
-  // -webkit-box-shadow: 78px -80px 0px -42px rgba(0, 0, 0, 0.75);
-  // -moz-box-shadow: 78px -80px 0px -42px rgba(0, 0, 0, 0.75);
-
+  @media(min-width:1100px) and (max-width:1240px) {
+    box-shadow: 12px 10px 21px -9px rgba(0, 0, 0, 0.75), 54px -52px 0px 0px $clr-primary-400, 54px 52px 0px 0px $clr-primary-400, 64px 52px 0px 0px #fff, 64px -52px 0px 0px #fff;
+  }
 }
+
+.home-page-shadow-left {
+  box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3);
+
+  @include breakpoint(lg) {
+    box-shadow: 190px -250px 0px -190px #fff, 190px 250px 0px -190px #fff, -12px 10px 21px -9px rgba(0, 0, 0, 0.75), -54px -52px 0px 0px $clr-neutral-700, -54px 52px 0px 0px $clr-neutral-700, -64px 52px 0px 0px #fff, -64px -52px 0px 0px #fff;
+    -webkit-box-shadow: 190px -250px 0px -190px #fff, 190px 250px 0px -190px #fff, -12px 10px 21px -9px rgba(0, 0, 0, 0.75), -54px -52px 0px 0px $clr-neutral-700, -54px 52px 0px 0px $clr-neutral-700, -64px 52px 0px 0px #fff, -64px -52px 0px 0px #fff;
+    -moz-box-shadow: 190px -250px 0px -190px #fff, 190px 250px 0px -190px #fff, -12px 10px 21px -9px rgba(0, 0, 0, 0.75), -54px -52px 0px 0px $clr-neutral-700, -54px 52px 0px 0px $clr-neutral-700, -64px 52px 0px 0px #fff, -64px -52px 0px 0px #fff;
+  }
+
+  @media(min-width:1100px) and (max-width:1240px) {
+    box-shadow: -12px 10px 21px -9px rgba(0, 0, 0, 0.75), -54px -52px 0px 0px $clr-neutral-700, -54px 52px 0px 0px $clr-neutral-700, -64px 52px 0px 0px #fff, -64px -52px 0px 0px #fff;
+  }
+}
+
+
+
 
 
 // INNER PAGES

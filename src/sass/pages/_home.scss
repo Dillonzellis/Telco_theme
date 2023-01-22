@@ -14,14 +14,41 @@
     }
   }
 
+  .img-col {
+    img {
+      // @include breakpoint(lg) {
+      //   border-left: 10px solid #fff;
+      // }
 
+      @media(min-width: 1190px) {
+        border-left: 10px solid #fff;
+      }
+    }
+  }
+}
 
+.auto {
+  @include breakpoint(lg) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 95%;
+      height: 100%;
+      background: $clr-primary-400;
+      z-index: -1;
+      right: 0;
+    }
+  }
 
   .img-col {
-
     img {
-      @include breakpoint(lg) {
-        border-left: 10px solid #fff;
+      // @include breakpoint(lg) {
+      //   border-right: 10px solid #fff;
+      // }
+
+      @media(min-width: 1050px) {
+        border-right: 10px solid #fff;
       }
     }
   }

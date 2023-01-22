@@ -1,6 +1,12 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
+.lg-max-pb-05 {
+    @include breakpoint-down(lg) {
+        padding-bottom: 0.5rem;
+    }
+}
+
 .pb-1 {
     padding-bottom: 1rem
 }
