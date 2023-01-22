@@ -73,6 +73,10 @@
     margin-inline: auto;
 }
 
+.mx-auto-force {
+    margin-inline: auto !important;
+}
+
 .md-max-mx-auto {
     @include breakpoint-down(md) {
         margin-inline: auto;
