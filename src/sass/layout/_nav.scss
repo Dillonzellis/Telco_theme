@@ -1,8 +1,8 @@
 @use '/src/sass/abstracts/' as *;
 @use '/src/sass/base/' as *;
 
-.top-nav{
-    @include breakpoint-down(sm-500){
+.top-nav {
+    @include breakpoint-down(sm-500) {
         flex-direction: column;
         gap: 0.5rem;
         align-items: end;
@@ -20,7 +20,7 @@
 .mega-menu-link {
     color: $clr-primary-400 !important;
     font-weight: $fw-bold !important;
-    font-size: $fs-425 !important;
+    font-size: 1.125rem !important;
     font-family: $ff-accent !important;
 
     @include breakpoint-down(lg) {
