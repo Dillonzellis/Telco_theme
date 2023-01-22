@@ -1,8 +1,22 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
+// FLEX
 .flex {
   display: flex;
 }
 
+.md-flex {
+  @include breakpoint(md) {
+    display: flex;
+  }
+}
 
+// ALIGNMENT
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-center {
+  justify-content: center;
+}
