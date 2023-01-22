@@ -18,9 +18,36 @@
     margin-bottom: 1rem;
 }
 
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
 .lg-mb-2 {
     @include breakpoint(lg) {
         margin-bottom: 2rem;
+    }
+}
+
+.mb-3-5 {
+    margin-bottom: 3.5rem;
+}
+
+.lg-mb-8 {
+    @include breakpoint(lg) {
+        margin-bottom: 8rem;
+    }
+}
+
+.lg-mb-12 {
+    @include breakpoint(lg) {
+        margin-bottom: 12rem;
+    }
+}
+
+
+.xl-mb-15 {
+    @include breakpoint(xl) {
+        margin-bottom: 15rem;
     }
 }
 
