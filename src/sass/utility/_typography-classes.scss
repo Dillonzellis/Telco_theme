@@ -17,6 +17,11 @@
   line-height: 1.5rem;
 }
 
+.fs-20 {
+  font-size: rem(20);
+  line-height: 1.75rem;
+}
+
 // HEADINGS
 .primary-heading {
 
@@ -29,47 +34,12 @@
   line-height: 1.5;
 }
 
+.sub-heading {
+  &::before {
+    content: url("https://dev3.growthbydesign.org/wp-content/uploads/2022/11/plus.png");
+  }
+}
 
-
-// .fs-300 {
-//   font-size: $fs-300;
-// }
-
-// .fs-425 {
-//   font-size: $fs-425;
-// }
-
-// .fs-450 {
-//   font-size: $fs-450;
-// }
-
-// .fs-450 {
-//   font-size: $fs-450;
-// }
-
-// .fs-475 {
-//   font-size: $fs-475;
-// }
-
-// .fs-500 {
-//   font-size: $fs-500;
-// }
-
-// .fs-600 {
-//   font-size: $fs-600;
-// }
-
-// .fs-625 {
-//   font-size: $fs-625;
-// }
-
-// .fs-650 {
-//   font-size: $fs-650;
-// }
-
-// .fs-900 {
-//   font-size: $fs-900;
-// }
 
 // WEIGHTS 
 .fw-medium {
@@ -102,6 +72,15 @@
 // }
 
 // TEXT DECORATION
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
 // .underline {
 //   text-decoration: underline !important;
 // }
