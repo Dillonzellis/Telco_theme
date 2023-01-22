@@ -68,10 +68,6 @@
   }
 }
 
-
-
-
-
 // INNER PAGES
 .hero-shadow {
   box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -69px 70px 0px -53px $clr-neutral-400;
@@ -89,6 +85,12 @@
     -moz-box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -100px 85px 0px -67px $clr-primary-400, -100px -85px 0px -67px $clr-primary-400;
     box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -100px 85px 0px -67px $clr-primary-400, -100px -85px 0px -67px $clr-primary-400;
   }
+
+  @media(min-width:768px) and (max-width:840px) {
+    box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -100px 85px 0px -67px $clr-primary-400, -100px 50px 0px -67px $clr-primary-400, -100px -85px 0px -67px $clr-primary-400;
+    -webkit-box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -100px 85px 0px -67px $clr-primary-400, -100px 50px 0px -67px $clr-primary-400, -100px -85px 0px -67px $clr-primary-400;
+    -moz-box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -100px 85px 0px -67px $clr-primary-400, -100px 50px 0px -67px $clr-primary-400, -100px -85px 0px -67px $clr-primary-400;
+  }
 }
 
 .content-shadow-right {
@@ -100,6 +102,12 @@
     -webkit-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-neutral-400, 100px -85px 0px -67px $clr-neutral-400;
     -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-neutral-400, 100px -85px 0px -67px $clr-neutral-400;
     box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-neutral-400, 100px -85px 0px -67px $clr-neutral-400;
+  }
+
+  @media(min-width:768px) and (max-width:840px) {
+    box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-neutral-400, 100px 50px 0px -67px $clr-neutral-400, 100px -85px 0px -67px $clr-neutral-400;
+    -webkit-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-neutral-400, 100px 50px 0px -67px $clr-neutral-400, 100px -85px 0px -67px $clr-neutral-400;
+    -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-neutral-400, 100px 50px 0px -67px $clr-neutral-400, 100px -85px 0px -67px $clr-neutral-400;
   }
 }
 

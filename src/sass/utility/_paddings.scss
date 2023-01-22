@@ -1,36 +1,7 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
-.lg-max-pb-05 {
-    @include breakpoint-down(lg) {
-        padding-bottom: 0.5rem;
-    }
-}
-
-.pb-1 {
-    padding-bottom: 1rem
-}
-
-.pb-1-5 {
-    padding-bottom: 1.5rem
-}
-
-.md-pb-2 {
-    @include breakpoint(md) {
-        padding-bottom: 2rem;
-    }
-}
-
-.pt-2 {
-    padding-top: 2rem
-}
-
-.md-pt-3 {
-    @include breakpoint(md) {
-        padding-top: 3rem;
-    }
-}
-
+// PADDING BLOCK
 .py-1 {
     padding-block: 1rem
 }
@@ -81,5 +52,49 @@
 .md-py-7 {
     @include breakpoint(md) {
         padding-block: 7rem;
+    }
+}
+
+// PADDING BOTTOM
+.lg-max-pb-05 {
+    @include breakpoint-down(lg) {
+        padding-bottom: 0.5rem;
+    }
+}
+
+.pb-1 {
+    padding-bottom: 1rem
+}
+
+.pb-1-5 {
+    padding-bottom: 1.5rem
+}
+
+.md-pb-2 {
+    @include breakpoint(md) {
+        padding-bottom: 2rem;
+    }
+}
+
+.xl-pb-5 {
+    @include breakpoint(xl) {
+        padding-bottom: 5rem;
+    }
+}
+
+// PADDING TOP
+.pt-2 {
+    padding-top: 2rem
+}
+
+.md-pt-3 {
+    @include breakpoint(md) {
+        padding-top: 3rem;
+    }
+}
+
+.xl-pt-15 {
+    @include breakpoint(xl) {
+        padding-top: 15rem;
     }
 }
