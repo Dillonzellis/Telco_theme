@@ -1,8 +1,8 @@
-@use '/src/sass/abstracts/'as *;
+@use '/src/sass/abstracts/' as *;
 @use '/src/sass/base/' as *;
 
 .modal-window-content {
-    font-size: $fs-400;
+    font-size: 1rem;
     font-family: $ff-primary;
     color: $clr-neutral-700;
     padding: 0.75rem !important;
@@ -18,9 +18,9 @@
     }
 }
 
-.modal-window-content h3 {
-    font-size: $fs-600;
-}
+// .modal-window-content h3 {
+//     font-size: $fs-600;
+// }
 
 .modal-btn-wrapper {
     display: flex;
