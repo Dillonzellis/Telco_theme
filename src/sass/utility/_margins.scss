@@ -28,3 +28,9 @@
 //         margin-bottom: 2rem;
 //     }
 // }
+
+.-lg-max-mt-1-5 {
+    @include breakpoint-down(lg) {
+        margin-top: -1.5rem;
+    }
+}

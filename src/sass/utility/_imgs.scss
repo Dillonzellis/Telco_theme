@@ -23,6 +23,30 @@
 //   }
 // }
 
+// BOX SHADOWS
+
+// HOME PAGE
+.home-page-shadow-right {
+  box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3);
+
+  @include breakpoint(lg) {
+    box-shadow: -190px -250px 0px -190px rgb(255, 255, 255), -190px 250px 0px -190px rgb(255, 255, 255), 12px 10px 21px -9px rgba(0, 0, 0, 0.75), 54px -52px 0px 0px $clr-primary-400,
+      54px 52px 0px 0px $clr-primary-400,
+      64px 52px 0px 0px #fff,
+      64px -52px 0px 0px #fff;
+    ;
+  }
+
+
+  // -webkit-box-shadow: 78px -80px 0px -42px rgba(0, 0, 0, 0.75);
+  // -moz-box-shadow: 78px -80px 0px -42px rgba(0, 0, 0, 0.75);
+
+}
+
+
+// INNER PAGES
 .hero-shadow {
   box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -69px 70px 0px -53px $clr-neutral-400;
   -webkit-box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -69px 70px 0px -53px $clr-neutral-400;

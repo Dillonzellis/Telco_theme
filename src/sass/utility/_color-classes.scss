@@ -7,6 +7,12 @@
   background-color: $clr-primary-400;
 }
 
+.lg-max-bgc-primary-400 {
+  @include breakpoint-down(lg) {
+    background-color: $clr-primary-400;
+  }
+}
+
 // .bgc-primary-400-min-lg {
 //   @include breakpoint(lg) {
 //     background-color: $clr-primary-400;

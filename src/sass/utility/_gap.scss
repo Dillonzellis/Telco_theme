@@ -13,6 +13,12 @@
     gap: 1rem;
 }
 
+.lg-gap-1 {
+    @include breakpoint(lg) {
+        gap: 1rem;
+    }
+}
+
 .gap-2 {
     gap: 2rem;
 }

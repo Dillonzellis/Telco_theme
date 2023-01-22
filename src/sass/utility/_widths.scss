@@ -1,6 +1,19 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
+
+// WIDTHS
+.w-full {
+    width: 100%;
+}
+
+.lg-w-full {
+    @include breakpoint(lg) {
+        width: 100%;
+    }
+}
+
+// CHARACTER WIDTHS 
 .max-width-ch-70 {
     max-width: 70ch;
 }

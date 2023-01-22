@@ -6,9 +6,19 @@
   position: absolute !important;
 }
 
+.lg-absolute {
+  @include breakpoint(lg) {
+    position: absolute !important;
+  }
+}
+
 .-translate-x-50 {
   transform: translateX(-50%);
 }
+
+// .-translate-y-50 {
+//   transform: translateY(-50%);
+// }
 
 .relative {
   position: relative;

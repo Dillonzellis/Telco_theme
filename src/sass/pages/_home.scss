@@ -2,29 +2,27 @@
 @use "/src/sass/base/" as *;
 
 .checking {
-  margin-bottom: 3rem;
-  @include breakpoint-down(lg) {
-    background-color: $clr-primary-400;
-  }
-
-  @include breakpoint(xl) {
-    margin-top: 3rem;
-    margin-bottom: 10rem;
-  }
-}
-
-.auto-loans {
-  margin-bottom: 1.5rem;
-
-  @include breakpoint-down(lg) {
-    background-color: $clr-neutral-700;
-  }
-
   @include breakpoint(lg) {
-    margin-bottom: 3rem;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 95%;
+      height: 100%;
+      background: $clr-neutral-700;
+      z-index: -1;
+    }
   }
 
-  @include breakpoint(xl) {
-    margin-bottom: 10rem;
+
+
+
+  .img-col {
+
+    img {
+      @include breakpoint(lg) {
+        border-left: 10px solid #fff;
+      }
+    }
   }
 }
