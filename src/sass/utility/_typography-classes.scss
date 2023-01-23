@@ -32,11 +32,17 @@
 
   font-size: clamp(2.5rem, 5vw, 3.75rem);
   line-height: 1;
+
+  font-weight: 500 !important;
+  font-family: $ff-accent;
 }
 
 .secondary-heading {
   font-size: clamp(1.5rem, 5vw, 2.25rem);
   line-height: 1.5;
+
+  font-weight: 500 !important;
+  font-family: $ff-accent;
 }
 
 .sub-heading {

@@ -14,7 +14,7 @@
     color: $clr-primary-400 !important;
     font-weight: $fw-bold !important;
     font-size: 1.125rem !important;
-    font-family: $ff-accent !important;
+    font-family: $ff-primary !important;
 
     @include breakpoint-down(lg) {
         text-align: center !important;
