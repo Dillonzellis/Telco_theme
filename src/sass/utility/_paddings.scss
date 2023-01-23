@@ -1,59 +1,6 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
-// PADDING BLOCK
-.py-1 {
-    padding-block: 1rem
-}
-
-.py-1-5 {
-    padding-block: 1.5rem
-}
-
-.py-2 {
-    padding-block: 2rem
-}
-
-.md-py-2 {
-    @include breakpoint(md) {
-        padding-block: 2rem;
-    }
-}
-
-.py-3 {
-    padding-block: 3rem
-}
-
-
-.md-py-3 {
-    @include breakpoint(md) {
-        padding-block: 3rem;
-    }
-}
-
-.lg-py-3 {
-    @include breakpoint(lg) {
-        padding-block: 3rem;
-    }
-}
-
-.md-py-5 {
-    @include breakpoint(md) {
-        padding-block: 5rem;
-    }
-}
-
-.xl-py-5 {
-    @include breakpoint(xl) {
-        padding-block: 5rem;
-    }
-}
-
-.md-py-7 {
-    @include breakpoint(md) {
-        padding-block: 7rem;
-    }
-}
 
 // PADDING BOTTOM
 .lg-max-pb-05 {
@@ -96,5 +43,60 @@
 .xl-pt-15 {
     @include breakpoint(xl) {
         padding-top: 15rem;
+    }
+}
+
+// PADDING BLOCK
+.py-1 {
+    padding-block: 1rem
+}
+
+.py-1-5 {
+    padding-block: 1.5rem
+}
+
+.py-2 {
+    padding-block: 2rem
+}
+
+.md-py-2 {
+    @include breakpoint(md) {
+        padding-block: 2rem;
+    }
+}
+
+.py-3 {
+    padding-block: 3rem
+}
+
+
+.md-py-3 {
+    @include breakpoint(md) {
+        padding-block: 3rem;
+    }
+}
+
+.lg-py-3 {
+    @include breakpoint(lg) {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+.md-py-5 {
+    @include breakpoint(md) {
+        padding-block: 5rem;
+    }
+}
+
+.xl-py-5 {
+    @include breakpoint(xl) {
+        padding-block: 5rem;
+    }
+}
+
+.md-py-7 {
+    @include breakpoint(md) {
+        padding-block: 7rem;
     }
 }
