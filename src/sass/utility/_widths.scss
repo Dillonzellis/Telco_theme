@@ -1,0 +1,43 @@
+@use "/src/sass/abstracts/" as *;
+@use "/src/sass/base/" as *;
+
+
+// WIDTHS
+.w-full {
+    width: 100%;
+}
+
+.lg-w-full {
+    @include breakpoint(lg) {
+        width: 100%;
+    }
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+// CHARACTER WIDTHS 
+
+.md-width-ch-70 {
+    @include breakpoint(md) {
+        width: 70ch;
+    }
+}
+
+// MAX WIDTHS
+.max-width-ch-70 {
+    max-width: 70ch;
+}
+
+.md-width-ch-70-force {
+    @include breakpoint(md) {
+        width: 70ch !important;
+    }
+}
+
+// DIVI
+
+.width-unset {
+    width: unset !important;
+}

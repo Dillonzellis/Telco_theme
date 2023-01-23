@@ -2,36 +2,43 @@
 @use "/src/sass/base/" as *;
 
 
-// Background Colors
-
-// .bgc-primary-300{
-//     background-color: $clr-primary-300;
-//   }
-
+// BG COLORS
 .bgc-primary-400 {
   background-color: $clr-primary-400;
 }
 
-.bgc-primary-400-min-lg {
-  @include breakpoint(lg) {
+.lg-max-bgc-primary-400 {
+  @include breakpoint-down(lg) {
     background-color: $clr-primary-400;
   }
 }
 
-.bgc-accent-400 {
-  background-color: $clr-accent-400;
-}
+// .bgc-primary-400-min-lg {
+//   @include breakpoint(lg) {
+//     background-color: $clr-primary-400;
+//   }
+// }
+
+// .bgc-accent-400 {
+//   background-color: $clr-accent-400;
+// }
 
 .bgc-neutral-100 {
   background-color: $clr-neutral-100;
 }
 
-.bgc-neutral-400 {
-  background-color: $clr-neutral-400;
-}
+// .bgc-neutral-400 {
+//   background-color: $clr-neutral-400;
+// }
 
 .bgc-neutral-700 {
   background-color: $clr-neutral-700;
+}
+
+.lg-max-bgc-neutral-700 {
+  @include breakpoint-down(lg) {
+    background-color: $clr-neutral-700;
+  }
 }
 
 .lg-bgc-neutral-700 {
@@ -40,11 +47,13 @@
   }
 }
 
-.bgc-neutral-700-min-lg {
-  @include breakpoint(lg) {
-    background-color: $clr-neutral-700;
-  }
-}
+
+
+// .bgc-neutral-700-min-lg {
+//   @include breakpoint(lg) {
+//     background-color: $clr-neutral-700;
+//   }
+// }
 
 // .bgc-primary-gradient{
 //   background: linear-gradient(359.28deg, #1A4789 11.87%, #000000 194.74%);
@@ -52,8 +61,28 @@
 
 // Text Colors
 
+.clr-primary-300 {
+  color: $clr-primary-300;
+}
+
+.clr-primary-400 {
+  color: $clr-primary-400;
+}
+
+.clr-neutral-100 {
+  color: $clr-neutral-100;
+}
+
 .lg-clr-neutral-100 {
   @include breakpoint(lg) {
     color: $clr-neutral-100;
   }
+}
+
+.clr-neutral-700 {
+  color: $clr-neutral-700;
+}
+
+.clr-neutral-900 {
+  color: $clr-neutral-900;
 }

@@ -13,7 +13,7 @@
   padding: 0.8em 1.25em !important;
   font-weight: $fw-bold;
   line-height: 1;
-  font-size: $fs-button;
+  // font-size: $fs-button;
 
   transform: scale(1);
   transition: transform 200ms ease;
@@ -48,7 +48,7 @@
     padding: 0.35em 0.75em !important;
     font-weight: $fw-bold !important;
     line-height: 1;
-    font-size: $fs-button !important;
+    // font-size: $fs-button !important;
 
     color: $clr-neutral-100 !important;
     background-color: $clr-accent-400 !important;

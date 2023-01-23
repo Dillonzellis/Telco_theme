@@ -1,15 +1,60 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
+.-lg-max-mt-1-5 {
+    @include breakpoint-down(lg) {
+        margin-top: -1.5rem;
+    }
+}
 
 .mb-05 {
     margin-bottom: 0.5rem;
 }
 
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
 
 .lg-mb-2 {
     @include breakpoint(lg) {
         margin-bottom: 2rem;
+    }
+}
+
+.mb-3-5 {
+    margin-bottom: 3.5rem;
+}
+
+.lg-mb-8 {
+    @include breakpoint(lg) {
+        margin-bottom: 8rem;
+    }
+}
+
+.lg-mb-12 {
+    @include breakpoint(lg) {
+        margin-bottom: 12rem;
+    }
+}
+
+
+.xl-mb-15 {
+    @include breakpoint(xl) {
+        margin-bottom: 15rem;
+    }
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.md-ml-auto {
+    @include breakpoint(md) {
+        margin-left: auto;
     }
 }
 
@@ -19,8 +64,22 @@
 //     }
 // }
 
-.xxl-mb-2 {
-    @include breakpoint(xxl) {
-        margin-bottom: 2rem;
+// .xxl-mb-2 {
+//     @include breakpoint(xxl) {
+//         margin-bottom: 2rem;
+//     }
+// }
+
+.mx-auto {
+    margin-inline: auto;
+}
+
+.mx-auto-force {
+    margin-inline: auto !important;
+}
+
+.md-max-mx-auto {
+    @include breakpoint-down(md) {
+        margin-inline: auto;
     }
 }

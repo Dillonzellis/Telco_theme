@@ -1,4 +1,4 @@
-@use './typography'as *;
+@use './typography' as *;
 
 // https://piccalil.li/blog/a-modern-css-reset
 
@@ -35,7 +35,7 @@ body {
 /* Set core body defaults */
 body {
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 /* A elements that don't have a class get default styles */
@@ -65,10 +65,4 @@ svg {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}
-
-// DZ Changes
-
-small{
-  font-size: $fs-300;
 }

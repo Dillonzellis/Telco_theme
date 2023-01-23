@@ -1,168 +1,26 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
+// FLEX
 .flex {
   display: flex;
-  gap: var(--gap, 1rem);
 }
 
-// .flex-md{
-//   @include breakpoint(md) {
-//     display: flex;
-//     gap: var(--gap, 1rem);
-//   }
-// }
-
-// .flex-lg{
-//   @include breakpoint(lg) {
-//     display: flex;
-//     gap: var(--gap, 1rem);
-//   }
-// }
-
-// .flex-xl{
-//   @include breakpoint(xl) {
-//     display: flex;
-//     gap: var(--gap, 1rem);
-//   }
-// }
-
-.flex-col {
-  display: flex;
-  gap: var(--gap, 1rem);
-  flex-direction: column;
-}
-
-.flex-col-max-sm {
-  @include breakpoint-down(sm) {
+.md-flex {
+  @include breakpoint(md) {
     display: flex;
-    gap: var(--gap, 1rem);
-    flex-direction: column;
   }
 }
 
-// .flex-col-reverse{
-//   display: flex;
-//   gap: var(--gap, 1rem);
-//   flex-direction: column-reverse;
-// }
-
-// .flex-col-reverse-lg{
-//   @media(min-width:$lg){
-//     display: flex;
-//     gap: var(--gap, 1rem);
-//     flex-direction: column-reverse;
-//   }
-// }
-
-// .flex-col-lg{
-//   @include breakpoint(lg) {
-//     display: flex;
-//     gap: var(--gap, 1rem);
-//     flex-direction: column;
-//   }
-// }
-
-.flex-col-center {
-  display: flex;
-  gap: var(--gap, 1rem);
-  flex-direction: column;
-  justify-content: center;
-}
-
-// .flex-row{
-//   flex-direction: row;
-// }
-
-.flex-row-sm {
-  @include breakpoint(sm) {
-    flex-direction: row;
-  }
-}
-
-.flex-row-md {
-  @include breakpoint(md) {
-    flex-direction: row;
-  }
-}
-
-.md-flex-row {
-  @include breakpoint(md) {
-    flex-direction: row;
-  }
-}
-
-// .flex-row-lg{
-//   @include breakpoint(lg) {
-//     flex-direction: row;
-//   }
-// }
-
-.j-center {
-  justify-content: center;
-}
-
-.j-end {
-  justify-content: end;
-}
-
-.j-even {
+// ALIGNMENT
+.justify-evenly {
   justify-content: space-evenly;
 }
 
-.a-items-center {
-  align-items: center;
+.justify-center {
+  justify-content: center;
 }
 
-.items-center{
-  align-items: center;
+.justify-end {
+  justify-content: flex-end;
 }
-
-// .a-items-center-lg{
-//   @include breakpoint(lg) {
-//     align-items: center;
-//   }
-// }
-
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-
-
-.gap-100-max-lg {
-  @include breakpoint-down(lg) {
-    gap: 0.25rem;
-  }
-}
-
-.gap-200 {
-  gap: 0.5rem;
-}
-
-.gap-500 {
-  gap: 2rem;
-}
-
-.gap-600{
-  gap: 3rem;
-}
-
-.md-gap-600 {
-  @include breakpoint(md){
-    gap: 3rem;
-  }
-}
-
-.lg-gap-5{
-  @include breakpoint(lg){
-    gap: 5rem;
-  } 
-}
-
-.xl-gap-500 {
-  @include breakpoint(xl) {
-    gap: 2rem;
-  }
-}
-

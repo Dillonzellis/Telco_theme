@@ -1,50 +1,52 @@
 @use "/src/sass/base/" as *;
 @use "/src/sass/abstracts/" as *;
 
-// Font Sizes
-
-.fs-300 {
-  font-size: $fs-300;
+// FONT SIZES
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
-.fs-425 {
-  font-size: $fs-425;
+.fs-14 {
+  font-size: rem(14);
+  line-height: 1.25rem;
 }
 
-.fs-450 {
-  font-size: $fs-450;
+.fs-18 {
+  font-size: rem(18);
+  line-height: 1.5rem;
 }
 
-.fs-450 {
-  font-size: $fs-450;
+.fs-20 {
+  font-size: rem(20);
+  line-height: 1.75rem;
 }
 
-.fs-475 {
-  font-size: $fs-475;
+.fs-24 {
+  font-size: rem(24);
+  line-height: 2rem;
 }
 
-.fs-500 {
-  font-size: $fs-500;
+// HEADINGS
+.primary-heading {
+
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
+  line-height: 1;
 }
 
-.fs-600 {
-  font-size: $fs-600;
+.secondary-heading {
+  font-size: clamp(1.5rem, 5vw, 2.25rem);
+  line-height: 1.5;
 }
 
-.fs-625 {
-  font-size: $fs-625;
+.sub-heading {
+  &::before {
+    content: url("https://dev3.growthbydesign.org/wp-content/uploads/2022/11/plus.png");
+  }
 }
 
-.fs-650 {
-  font-size: $fs-650;
-}
 
-.fs-900 {
-  font-size: $fs-900;
-}
-
-// Weights
-
+// WEIGHTS 
 .fw-medium {
   font-weight: $fw-medium;
 }
@@ -54,29 +56,12 @@
 }
 
 .fw-bold {
-  font-weight: $fw-bold;
+  font-weight: 700;
 }
 
-//   Color
 
-.clr-primary-400 {
-  color: $clr-primary-400;
-}
 
-.clr-neutral-100 {
-  color: $clr-neutral-100;
-}
-
-.clr-neutral-700 {
-  color: $clr-neutral-700;
-}
-
-.clr-neutral-900 {
-  color: $clr-neutral-900;
-}
-
-// Font Family
-
+// FONT FAMILIES
 .ff-primary {
   font-family: $ff-primary;
 }
@@ -85,54 +70,20 @@
   font-family: $ff-accent;
 }
 
-.span-highlight {
-  span {
-    color: $clr-primary-400;
-  }
+
+// LINE HEIGHTS
+.lh-1 {
+  line-height: 1;
 }
 
-// .span-highlight-dark{
-//   span{
-//     color: $clr-primary-400;
-//   }
-// }
+// TEXT DECORATION
 
-// .upper{
-//   text-transform: uppercase;
-// }
-
-// Hyperlinks
-
-.neutral-100-a {
-  a {
-    color: $clr-neutral-100 !important;
-  }
+.uppercase {
+  text-transform: uppercase;
 }
 
-.primary-400-a {
-  a {
-    color: $clr-primary-400 !important;
-  }
-}
-
-.neutral-100-a-min-lg {
-  @include breakpoint(lg) {
-    a {
-      color: $clr-neutral-100 !important;
-    }
-  }
-}
-
-//   .highlight-a{
-//     a{
-//         color: $clr-accent-400;
-//     }
-// }
-
-// Line Heights
-
-.lh-400 {
-  line-height: 1 !important;
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .underline {

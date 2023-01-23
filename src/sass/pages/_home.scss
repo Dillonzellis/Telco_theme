@@ -1,30 +1,118 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
-.checking {
-  margin-bottom: 3rem;
-  @include breakpoint-down(lg) {
-    background-color: $clr-primary-400;
+
+.home-hero {
+  @include breakpoint(lg) {
+    background-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2023/01/home-hero-crop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  @include breakpoint(xl) {
-    margin-top: 3rem;
-    margin-bottom: 10rem;
+  z-index: 1;
+
+  overflow: hidden;
+
+  &__content {
+    z-index: 5;
   }
 }
 
-.auto-loans {
-  margin-bottom: 1.5rem;
-
-  @include breakpoint-down(lg) {
-    background-color: $clr-neutral-700;
-  }
-
+.light-circle {
   @include breakpoint(lg) {
-    margin-bottom: 3rem;
+    background: url('https://raw.githubusercontent.com/Dillonzellis/Telco_theme/516f04ebc26131d5689a85af3cff98f490293747/src/imgs/light-circle.svg') 100% 100%/100% 100% no-repeat;
+    position: absolute;
+    z-index: -1;
+    transition: all .3s cubic-bezier(.77, 0, .175, 1);
+    // top: 92%;
+    top: 20%;
+    left: -8vw;
+    // right: 0;
+    width: 60vw;
+    height: 60vw;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    // https://raw.githubusercontent.com/Dillonzellis/Telco_theme/516f04ebc26131d5689a85af3cff98f490293747/src/imgs/light-circle.svg
+
+    // width: 70vw;
+    // height: 70vw;
+    // border-radius: 100vmax;
+    // background: $clr-primary-400;
+    // opacity: 0.5;
+
+    // position: absolute;
+    // top: 50%;
+    // left: -25vw;
+    // transform: translate(-50%, -80%);
   }
 
-  @include breakpoint(xl) {
-    margin-bottom: 10rem;
+
+}
+
+.dark-circle {
+  @include breakpoint(lg) {
+    display: block;
+    background-image: url("https://raw.githubusercontent.com/Dillonzellis/Telco_theme/e22dfa0083fe1eed51a6041257f84e215afeda2c/src/imgs/dark-circle.svg");
+    background-size: 40%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 20%;
+    left: -5%;
+    z-index: -3;
+    transition: all .3s cubic-bezier(.77, 0, .175, 1);
+  }
+}
+
+.checking {
+  @include breakpoint(lg) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 95%;
+      height: 100%;
+      background: $clr-neutral-700;
+      z-index: -1;
+    }
+  }
+
+  .img-col {
+    img {
+      // @include breakpoint(lg) {
+      //   border-left: 10px solid #fff;
+      // }
+
+      @media(min-width: 1190px) {
+        border-left: 10px solid #fff;
+      }
+    }
+  }
+}
+
+.auto {
+  @include breakpoint(lg) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 95%;
+      height: 100%;
+      background: $clr-primary-400;
+      z-index: -1;
+      right: 0;
+    }
+  }
+
+  .img-col {
+    img {
+      @media(min-width: 1050px) {
+        border-right: 10px solid #fff;
+      }
+    }
   }
 }
