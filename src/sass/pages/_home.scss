@@ -1,6 +1,32 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
+
+.home-hero {
+  background-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2023/01/home-hero-crop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+
+  &__content {
+    padding-block: 12.5rem;
+  }
+}
+
+.circles {
+  width: 70vw;
+  height: 70vw;
+  border-radius: 100vmax;
+  background: $clr-primary-400;
+  opacity: 0.5;
+
+  position: absolute;
+  top: 50%;
+  // left: -25vw;
+  transform: translate(-50%, -80%);
+}
+
 .checking {
   @include breakpoint(lg) {
     &::before {
@@ -43,10 +69,6 @@
 
   .img-col {
     img {
-      // @include breakpoint(lg) {
-      //   border-right: 10px solid #fff;
-      // }
-
       @media(min-width: 1050px) {
         border-right: 10px solid #fff;
       }
