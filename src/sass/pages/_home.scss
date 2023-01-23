@@ -15,6 +15,11 @@
 
   &__content {
     z-index: 5;
+
+    .primary-heading,
+    .secondary-heading {
+      font-family: $ff-primary;
+    }
   }
 }
 
