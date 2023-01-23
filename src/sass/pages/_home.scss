@@ -3,62 +3,69 @@
 
 
 .home-hero {
-  background-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2023/01/home-hero-crop.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  @include breakpoint(lg) {
+    background-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2023/01/home-hero-crop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   z-index: 1;
 
   overflow: hidden;
 
   &__content {
-    padding-block: 12.5rem;
     z-index: 5;
   }
 }
 
 .light-circle {
+  @include breakpoint(lg) {
+    background: url('https://raw.githubusercontent.com/Dillonzellis/Telco_theme/516f04ebc26131d5689a85af3cff98f490293747/src/imgs/light-circle.svg') 100% 100%/100% 100% no-repeat;
+    position: absolute;
+    z-index: -1;
+    transition: all .3s cubic-bezier(.77, 0, .175, 1);
+    // top: 92%;
+    top: 20%;
+    left: -8vw;
+    // right: 0;
+    width: 60vw;
+    height: 60vw;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 
-  background: url('https://raw.githubusercontent.com/Dillonzellis/Telco_theme/516f04ebc26131d5689a85af3cff98f490293747/src/imgs/light-circle.svg') 100% 100%/100% 100% no-repeat;
-  position: absolute;
-  z-index: -1;
-  transition: all .3s cubic-bezier(.77, 0, .175, 1);
-  // top: 92%;
-  top: 50%;
-  left: -8vw;
-  // right: 0;
-  width: 60vw;
-  height: 60vw;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+    // https://raw.githubusercontent.com/Dillonzellis/Telco_theme/516f04ebc26131d5689a85af3cff98f490293747/src/imgs/light-circle.svg
 
-  // https://raw.githubusercontent.com/Dillonzellis/Telco_theme/516f04ebc26131d5689a85af3cff98f490293747/src/imgs/light-circle.svg
+    // width: 70vw;
+    // height: 70vw;
+    // border-radius: 100vmax;
+    // background: $clr-primary-400;
+    // opacity: 0.5;
 
-  // width: 70vw;
-  // height: 70vw;
-  // border-radius: 100vmax;
-  // background: $clr-primary-400;
-  // opacity: 0.5;
+    // position: absolute;
+    // top: 50%;
+    // left: -25vw;
+    // transform: translate(-50%, -80%);
+  }
 
-  // position: absolute;
-  // top: 50%;
-  // left: -25vw;
-  // transform: translate(-50%, -80%);
+
 }
 
 .dark-circle {
-  display: block;
-  // background-image: url("/assets/dist/images/circle-dark.svg");
-  background-size: 100%;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  position: absolute;
-  width: 200%;
-  height: 200%;
-  top: 80%;
-  left: -50%;
-  z-index: 3;
-  transition: all .3s cubic-bezier(.77, 0, .175, 1);
+  @include breakpoint(lg) {
+    display: block;
+    background-image: url("https://raw.githubusercontent.com/Dillonzellis/Telco_theme/e22dfa0083fe1eed51a6041257f84e215afeda2c/src/imgs/dark-circle.svg");
+    background-size: 40%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 20%;
+    left: -5%;
+    z-index: -3;
+    transition: all .3s cubic-bezier(.77, 0, .175, 1);
+  }
 }
 
 .checking {

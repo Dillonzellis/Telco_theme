@@ -1,9 +1,6 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
-
-
-
 .-lg-max-mt-1-5 {
     @include breakpoint-down(lg) {
         margin-top: -1.5rem;
@@ -49,6 +46,10 @@
     @include breakpoint(xl) {
         margin-bottom: 15rem;
     }
+}
+
+.ml-auto {
+    margin-left: auto;
 }
 
 .md-ml-auto {
