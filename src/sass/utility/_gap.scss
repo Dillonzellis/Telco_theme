@@ -106,6 +106,6 @@
 
 .lg-max-row-gap-2 {
     @include breakpoint-down(lg) {
-        row-gap: 2em;
+        row-gap: 2rem;
     }
 }
