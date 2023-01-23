@@ -12,13 +12,14 @@
 .container-de {
   // --max-width: 1500px;
   --max-width: 1350px;
+  // --max-width: 1200px;
   --container-padding: 1.5rem;
 
   width: min(var(--max-width), 100% - (var(--container-padding) * 2)) !important;
   margin-inline: auto;
 
   @include breakpoint(md) {
-    --container-padding: 3rem;
+    --container-padding: 2rem;
   }
 }
 
@@ -29,4 +30,3 @@
 //   width: min(var(--max-width), 100% - (var(--container-padding) * 2)) !important;
 //   margin-inline: auto;
 // }
-
