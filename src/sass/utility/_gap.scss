@@ -90,14 +90,18 @@
     row-gap: 1rem;
 }
 
-.row-gap-1-5 {
-    row-gap: 1.5rem;
-}
-
 .lg-row-gap-1 {
     @include breakpoint(lg) {
         row-gap: 1rem;
     }
+}
+
+.row-gap-1-5 {
+    row-gap: 1.5rem;
+}
+
+.row-gap-2 {
+    row-gap: 2rem;
 }
 
 .lg-max-row-gap-2 {
