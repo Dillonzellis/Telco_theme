@@ -11,6 +11,7 @@
 
 // PADDING BLOCK
 .py-1 {
+
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -47,12 +48,7 @@
     }
 }
 
-.lg-py-3 {
-    @include breakpoint(lg) {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
-}
+
 
 .md-py-5 {
     @include breakpoint(md) {
@@ -129,5 +125,13 @@
 .xl-pt-15 {
     @include breakpoint(xl) {
         padding-top: 15rem;
+    }
+}
+
+// LG PADDING BLOCK 
+.lg-py-3 {
+    @include breakpoint(lg) {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 }
