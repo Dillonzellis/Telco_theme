@@ -51,7 +51,8 @@
             border: 2px solid hsl(0, 0%, 90%);
 
             &:nth-child(even) {
-                background-color: $clr-primary-100;
+                // background-color: $clr-primary-100;
+                background-color: $clr-neutral-200;
             }
 
             td {
@@ -63,4 +64,13 @@
             }
         }
     }
+}
+
+// BG FIX
+body > div.\[.container-de.\] > div > div:nth-child(2) > table > tbody > tr:nth-child(9){
+    background-color: $clr-neutral-200;
+}
+
+body > div.\[.container-de.\] > div > div:nth-child(2) > table > tbody > tr:nth-child(11){
+    background-color: $clr-neutral-200;
 }
