@@ -33,6 +33,10 @@
     justify-items: center;
 }
 
+.items-baseline {
+    align-items: baseline;
+}
+
 // ORDER 
 .lg-max-order-1 {
     @include breakpoint-down(lg) {
