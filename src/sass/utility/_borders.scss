@@ -6,7 +6,23 @@
     border-bottom: 1px solid;
 }
 
+.border-b-10 {
+    border-bottom: 10px solid;
+}
+
 // BORDER-COLOR
 .border-light {
     border-color: rgb(218, 218, 218);
+}
+
+.border-neutral-400 {
+    border-color: $clr-neutral-400;
+}
+
+.border-neutral-500 {
+    border-color: $clr-neutral-500;
+}
+
+.border-neutral-700 {
+    border-color: $clr-neutral-700;
 }

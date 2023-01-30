@@ -1,20 +1,21 @@
-:root{
-   --clr-primary-100:hsl(203, 96%, 98%);
-   --clr-primary-300:hsl(203, 96%, 44%);
+:root {
+   --clr-primary-100: hsl(203, 96%, 98%);
+   --clr-primary-300: hsl(203, 96%, 44%);
    --clr-primary-400: hsl(203, 100%, 32%);
    --clr-primary-500: hsl(203, 100%, 25%);
 
-   --clr-accent-300:hsl(79, 95%, 48%);
-   --clr-accent-400:hsl(79, 100%, 33%);
-   --clr-accent-500:hsl(79, 96%, 29%);
+   --clr-accent-300: hsl(79, 95%, 48%);
+   --clr-accent-400: hsl(79, 100%, 33%);
+   --clr-accent-500: hsl(79, 96%, 29%);
 
    --clr-neutral-100: hsl(0, 0%, 100%);
    --clr-neutral-200: hsl(0, 0%, 97%);
-   --clr-neutral-400:hsl(240, 2%, 64%);
-   --clr-neutral-700:hsl(0, 0%, 25%);
-   --clr-neutral-800:hsl(210, 5%, 8%);
+   --clr-neutral-400: hsl(240, 2%, 64%);
+   --clr-neutral-500: hsl(240, 1%, 44%);
+   --clr-neutral-700: hsl(0, 0%, 25%);
+   --clr-neutral-800: hsl(210, 5%, 8%);
    // --clr-neutral-900:hsl(0, 0%, 0%);
-   --clr-neutral-900:hsl(202, 83%, 5%);
+   --clr-neutral-900: hsl(202, 83%, 5%);
 }
 
 $clr-primary-100: var(--clr-primary-100);
@@ -29,6 +30,7 @@ $clr-accent-500: var(--clr-accent-500);
 $clr-neutral-100: var(--clr-neutral-100);
 $clr-neutral-200: var(--clr-neutral-200);
 $clr-neutral-400: var(--clr-neutral-400);
+$clr-neutral-500: var(--clr-neutral-500);
 $clr-neutral-700: var(--clr-neutral-700);
 $clr-neutral-800: var(--clr-neutral-800);
 $clr-neutral-900: var(--clr-neutral-900);
