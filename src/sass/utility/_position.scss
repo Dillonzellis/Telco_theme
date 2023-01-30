@@ -43,6 +43,12 @@
   }
 }
 
+.md-max-text-center {
+  @include breakpoint-down(md) {
+    text-align: center;
+  }
+}
+
 // Z INDEX
 // .z-100 {
 //   z-index: 100;

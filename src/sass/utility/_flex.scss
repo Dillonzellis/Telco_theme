@@ -12,6 +12,17 @@
   }
 }
 
+// FLEX DIRECTION
+.flex-col {
+  flex-direction: column;
+}
+
+.md-flex-row {
+  @include breakpoint(md) {
+    flex-direction: row;
+  }
+}
+
 // ALIGNMENT
 .justify-evenly {
   justify-content: space-evenly;

@@ -119,3 +119,21 @@
 
   }
 }
+
+// .content-shadow-right-green {
+//   -webkit-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), -85px -4px 0px -30px $clr-accent-400, 85px -4px 0px -30px $clr-accent-400;
+//   -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), -85px -4px 0px -30px $clr-accent-400, 85px -4px 0px -30px $clr-accent-400;
+//   box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), -85px -4px 0px -30px $clr-accent-400, 85px -4px 0px -30px $clr-accent-400;
+
+//   @include breakpoint(md) {
+//     -webkit-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-accent-400, 100px -85px 0px -67px $clr-accent-400;
+//     -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-accent-400, 100px -85px 0px -67px $clr-accent-400;
+//     box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-accent-400, 100px -85px 0px -67px $clr-accent-400;
+//   }
+
+//   @media(min-width:768px) and (max-width:840px) {
+//     box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-accent-400, 100px 50px 0px -67px $clr-accent-400, 100px -85px 0px -67px $clr-accent-400;
+//     -webkit-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-accent-400, 100px 50px 0px -67px $clr-accent-400, 100px -85px 0px -67px $clr-accent-400;
+//     -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-accent-400, 100px 50px 0px -67px $clr-accent-400, 100px -85px 0px -67px $clr-accent-400;
+//   }
+// }

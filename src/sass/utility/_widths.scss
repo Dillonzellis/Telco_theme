@@ -30,6 +30,10 @@
     max-width: 70ch;
 }
 
+.max-width-ch-85 {
+    max-width: 85ch;
+}
+
 .md-width-ch-70-force {
     @include breakpoint(md) {
         width: 70ch !important;

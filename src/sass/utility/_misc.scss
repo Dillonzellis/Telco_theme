@@ -1,17 +1,7 @@
 @use "/src/sass/abstracts/" as *;
 @use "/src/sass/base/" as *;
 
-// LISTS
-.styled-list {
-  list-style-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2023/01/li-icon.png");
-  margin-left: 1.5rem;
-}
 
-.lg-styled-list-accent {
-  @include breakpoint(lg) {
-    list-style-image: url("https://dev3.growthbydesign.org/wp-content/uploads/2023/01/li-icon-accent.png");
-  }
-}
 
 
 
