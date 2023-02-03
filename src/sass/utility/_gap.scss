@@ -72,6 +72,12 @@
     }
 }
 
+.gap-x-5 {
+    column-gap: 5rem;
+}
+
+
+
 // ROW GAP
 
 .row-gap-0 {
@@ -88,6 +94,18 @@
 
 .row-gap-1 {
     row-gap: 1rem;
+}
+
+.gap-y-05 {
+    row-gap: 0.5rem;
+}
+
+.gap-y-1 {
+    row-gap: 1rem;
+}
+
+.gap-y-2 {
+    row-gap: 2rem;
 }
 
 .lg-row-gap-1 {

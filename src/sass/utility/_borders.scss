@@ -2,6 +2,12 @@
 @use "/src/sass/base/" as *;
 
 // BORDER LOCATION 
+
+.border-10 {
+    border: 10px solid;
+}
+
+// Border Bottom
 .border-b-1 {
     border-bottom: 1px solid;
 }
@@ -25,4 +31,8 @@
 
 .border-neutral-700 {
     border-color: $clr-neutral-700;
+}
+
+.border-primary-400 {
+    border-color: $clr-primary-400;
 }
