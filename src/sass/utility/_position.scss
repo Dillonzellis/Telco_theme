@@ -56,6 +56,15 @@
 
 
 // DISPLAY
+
+.lg-block {
+  display: none;
+
+  @include breakpoint(lg) {
+    display: block;
+  }
+}
+
 .xl-block {
   display: none;
 
