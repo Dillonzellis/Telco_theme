@@ -37,6 +37,12 @@
   text-align: start;
 }
 
+.md-text-center {
+  @include breakpoint(md) {
+    text-align: center;
+  }
+}
+
 .text-start-lg {
   @include breakpoint(lg) {
     text-align: start;

@@ -56,21 +56,21 @@
             }
 
             td {
-                padding: 0.5rem;
+                padding: 1rem;
 
-                @include breakpoint(md) {
-                    padding: 1rem;
-                }
+                // @include breakpoint(md) {
+                //     padding: 1rem;
+                // }
             }
         }
     }
 }
 
 // BG FIX
-body > div.\[.container-de.\] > div > div:nth-child(2) > table > tbody > tr:nth-child(9){
+body>div.\[.container-de.\]>div>div:nth-child(2)>table>tbody>tr:nth-child(9) {
     background-color: $clr-neutral-200;
 }
 
-body > div.\[.container-de.\] > div > div:nth-child(2) > table > tbody > tr:nth-child(11){
+body>div.\[.container-de.\]>div>div:nth-child(2)>table>tbody>tr:nth-child(11) {
     background-color: $clr-neutral-200;
 }

@@ -142,6 +142,12 @@
     }
 }
 
+.xl-pb-2 {
+    @include breakpoint(xl) {
+        padding-bottom: 2rem;
+    }
+}
+
 // LG PADDING BLOCK 
 .lg-py-3 {
     @include breakpoint(lg) {
