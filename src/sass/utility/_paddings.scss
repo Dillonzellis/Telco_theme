@@ -109,6 +109,12 @@
     }
 }
 
+.md-pb-4 {
+    @include breakpoint(md) {
+        padding-bottom: 4rem;
+    }
+}
+
 .xl-pb-5 {
     @include breakpoint(xl) {
         padding-bottom: 5rem;
