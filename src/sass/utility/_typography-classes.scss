@@ -38,7 +38,7 @@
   font-size: clamp(2.5rem, 5vw, 3.75rem);
   line-height: 1;
 
-  font-weight: 500 !important;
+  // font-weight: 500 !important;
   font-family: $ff-accent;
 }
 
@@ -46,7 +46,7 @@
   font-size: clamp(1.5rem, 5vw, 2.25rem);
   line-height: 1.5;
 
-  font-weight: 500 !important;
+  // font-weight: 500 !important;
   font-family: $ff-accent;
 }
 
@@ -67,6 +67,10 @@
 }
 
 .fw-bold {
+  font-weight: 700;
+}
+
+.fw-bold-force {
   font-weight: 700;
 }
 
