@@ -161,3 +161,10 @@
         padding-bottom: 5rem;
     }
 }
+
+.md-py-2 {
+    @include breakpoint(md) {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
