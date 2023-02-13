@@ -121,3 +121,9 @@
         margin-left: auto;
     }
 }
+
+.xl-mb-7 {
+    @include breakpoint(xl) {
+        margin-bottom: 7rem;
+    }
+}
