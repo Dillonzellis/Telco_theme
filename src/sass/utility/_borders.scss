@@ -3,6 +3,10 @@
 
 // BORDER LOCATION 
 
+.border-5 {
+    border: 5px solid;
+}
+
 .border-10 {
     border: 10px solid;
 }
@@ -35,4 +39,8 @@
 
 .border-primary-400 {
     border-color: $clr-primary-400;
+}
+
+.border-accent-400 {
+    border-color: $clr-accent-400;
 }
