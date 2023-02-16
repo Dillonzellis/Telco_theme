@@ -16,6 +16,17 @@
    --clr-neutral-800: hsl(210, 5%, 8%);
    // --clr-neutral-900:hsl(0, 0%, 0%);
    --clr-neutral-900: hsl(202, 83%, 5%);
+
+   --clr-greys-500: hsl(0, 0%, 38%);
+   --clr-greys-600: hsl(0, 0%, 25%);
+   --clr-greys-700: hsl(0, 0%, 13%);
+
+   --clr-blues-100: hsl(204, 24%, 96%);
+   --clr-blues-600: hsl(203, 25%, 32%);
+   --clr-blues-700: hsl(202, 30%, 17%);
+   --clr-blues-800: hsl(203, 100%, 8%);
+
+
 }
 
 $clr-primary-100: var(--clr-primary-100);
@@ -34,3 +45,12 @@ $clr-neutral-500: var(--clr-neutral-500);
 $clr-neutral-700: var(--clr-neutral-700);
 $clr-neutral-800: var(--clr-neutral-800);
 $clr-neutral-900: var(--clr-neutral-900);
+
+$clr-greys-500: var(--clr-greys-500);
+$clr-greys-600: var(--clr-greys-600);
+$clr-greys-700: var(--clr-greys-700);
+
+$clr-blues-100: var(--clr-blues-100);
+$clr-blues-600: var(--clr-blues-600);
+$clr-blues-700: var(--clr-blues-700);
+$clr-blues-800: var(--clr-blues-800);

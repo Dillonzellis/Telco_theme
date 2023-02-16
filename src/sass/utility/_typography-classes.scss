@@ -9,7 +9,7 @@
 
 .fs-12 {
   font-size: rem(12);
-  line-height: 1.25rem;
+  line-height: 1.25;
 }
 
 .fs-14 {
@@ -39,13 +39,17 @@
   line-height: 2rem;
 }
 
+.fs-24 {
+  font-size: rem(28);
+}
+
 .fs-32 {
   font-size: rem(32);
   line-height: 2rem;
 }
 
-.fs-40 {
-  font-size: rem(40);
+.fs-50 {
+  font-size: rem(50);
   line-height: 1;
 }
 

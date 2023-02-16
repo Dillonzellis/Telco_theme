@@ -35,6 +35,10 @@
   background-color: $clr-neutral-700;
 }
 
+.bgc-blues-100 {
+  background-color: $clr-blues-100;
+}
+
 .lg-max-bgc-neutral-700 {
   @include breakpoint-down(lg) {
     background-color: $clr-neutral-700;
@@ -100,4 +104,34 @@
 
 .clr-neutral-900 {
   color: $clr-neutral-900;
+}
+
+// GREYS
+.clr-greys-500 {
+  color: $clr-greys-500;
+}
+
+.clr-greys-600 {
+  color: $clr-greys-600;
+}
+
+.clr-greys-700 {
+  color: $clr-greys-700;
+}
+
+// BLUES
+.clr-blues-100 {
+  color: $clr-blues-100;
+}
+
+.clr-blues-600 {
+  color: $clr-blues-600;
+}
+
+.clr-blues-700 {
+  color: $clr-blues-700;
+}
+
+.clr-blues-800 {
+  color: $clr-blues-800;
 }

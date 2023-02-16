@@ -34,6 +34,10 @@
     max-width: 85ch;
 }
 
+.max-w-433 {
+    max-width: 433px;
+}
+
 .md-max-width-500 {
     @include breakpoint(md) {
         max-width: 500px;

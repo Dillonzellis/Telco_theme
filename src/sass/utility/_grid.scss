@@ -11,6 +11,22 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-85-1 {
+    @media(min-width: em(450)) {
+        grid-template-columns: 0.85fr 1fr;
+    }
+
+}
+
+.grid-cols-1-2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.max-450-grid-cols-1-4 {
+    @media(max-width: em(450)) {
+        grid-template-columns: 1fr 4fr;
+    }
+}
 
 .md-grid-cols-2 {
     @include breakpoint(md) {
@@ -42,6 +58,18 @@
     }
 }
 
+.xl-grid-cols-3 {
+    @include breakpoint(xl) {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+.xxl-grid-cols-3 {
+    @include breakpoint(xxl) {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
 // ALIGNMENT
 .items-center {
     align-items: center;
@@ -68,6 +96,12 @@
 
 .lg-max-order-2 {
     @include breakpoint-down(lg) {
+        order: 2;
+    }
+}
+
+.max-450-order-2 {
+    @media(max-width: em(450)) {
         order: 2;
     }
 }
