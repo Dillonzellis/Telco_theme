@@ -79,6 +79,10 @@
 
 
 // WEIGHTS 
+.fw-light {
+  font-weight: $fw-light;
+}
+
 .fw-medium {
   font-weight: $fw-medium;
 }
@@ -114,6 +118,10 @@
 
 .lh-1-1 {
   line-height: 1.1;
+}
+
+.lh-2 {
+  line-height: 2;
 }
 
 // TEXT DECORATION

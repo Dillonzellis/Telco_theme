@@ -23,6 +23,12 @@
   }
 }
 
+.lg-flex-row {
+  @include breakpoint(lg) {
+    flex-direction: row;
+  }
+}
+
 // ALIGNMENT
 .justify-evenly {
   justify-content: space-evenly;

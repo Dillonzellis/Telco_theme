@@ -118,6 +118,24 @@
   }
 }
 
+.content-shadow-left-grey-700 {
+  -webkit-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), -85px -4px 0px -30px $clr-neutral-700, 85px -4px 0px -30px $clr-neutral-700;
+  -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), -85px -4px 0px -30px $clr-neutral-700, 85px -4px 0px -30px $clr-neutral-700;
+  box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), -85px -4px 0px -30px $clr-neutral-700, 85px -4px 0px -30px $clr-neutral-700;
+
+  @include breakpoint(md) {
+    -webkit-box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -100px 85px 0px -67px $clr-neutral-700, -100px -85px 0px -67px $clr-neutral-700;
+    -moz-box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -100px 85px 0px -67px $clr-neutral-700, -100px -85px 0px -67px $clr-neutral-700;
+    box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -100px 85px 0px -67px $clr-neutral-700, -100px -85px 0px -67px $clr-neutral-700;
+  }
+
+  @media(min-width:768px) and (max-width:840px) {
+    box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -100px 85px 0px -67px $clr-neutral-700, -100px 50px 0px -67px $clr-neutral-700, -100px -85px 0px -67px $clr-neutral-700;
+    -webkit-box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -100px 85px 0px -67px $clr-neutral-700, -100px 50px 0px -67px $clr-neutral-700, -100px -85px 0px -67px $clr-neutral-700;
+    -moz-box-shadow: -13px 8px 13px -2px rgba(0, 0, 0, 0.3), -100px 85px 0px -67px $clr-neutral-700, -100px 50px 0px -67px $clr-neutral-700, -100px -85px 0px -67px $clr-neutral-700;
+  }
+}
+
 .content-shadow-right {
   -webkit-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), -85px -4px 0px -30px $clr-neutral-400, 85px -4px 0px -30px $clr-neutral-400;
   -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), -85px -4px 0px -30px $clr-neutral-400, 85px -4px 0px -30px $clr-neutral-400;
@@ -135,6 +153,8 @@
     -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), 100px 85px 0px -67px $clr-neutral-400, 100px 50px 0px -67px $clr-neutral-400, 100px -85px 0px -67px $clr-neutral-400;
   }
 }
+
+
 
 .lg-accent-content-shadow-right {
   @include breakpoint(lg) {
