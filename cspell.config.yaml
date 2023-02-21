@@ -1,0 +1,18 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions: []
+dictionaries: []
+words:
+  - CLTV
+  - CUNA
+  - DIVI
+  - easyaccordion
+  - Gilmer
+  - ITIN
+  - Marshinick
+  - NCUA
+  - NMLS
+  - Telco
+  - TPCU
+ignoreWords: []
+import: []

@@ -1,1 +1,7 @@
 Links are clr-primary-300
+
+
+TODO's
+-for sale page
+=add img slider functionality
+=make member items for sale section
