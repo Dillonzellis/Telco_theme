@@ -4,6 +4,7 @@ dictionaryDefinitions: []
 dictionaries: []
 words:
   - CLTV
+  - CUFG
   - CUNA
   - DIVI
   - easyaccordion
@@ -14,5 +15,6 @@ words:
   - NMLS
   - Telco
   - TPCU
+  - Weese
 ignoreWords: []
 import: []

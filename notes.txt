@@ -5,3 +5,6 @@ TODO's
 -for sale page
 =add img slider functionality
 =make member items for sale section
+
+IDEAS
+-on desktop sidebar menu that goes along with content and acts a nav like in documentation pages
