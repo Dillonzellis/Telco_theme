@@ -38,6 +38,14 @@
   }
 }
 
+.btn-shadow-primary {
+  box-shadow: 0 1.125em 1em -1em $clr-primary-500;
+}
+
+.btn-shadow-neutral {
+  box-shadow: 0 1.125em 1em -1em $clr-neutral-500;
+}
+
 .nav-btn {
   @include breakpoint(lg) {
     text-decoration: none !important;

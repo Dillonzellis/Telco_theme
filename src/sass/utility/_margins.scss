@@ -43,6 +43,10 @@
     margin-bottom: 3.5rem;
 }
 
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
 .lg-mb-8 {
     @include breakpoint(lg) {
         margin-bottom: 8rem;
