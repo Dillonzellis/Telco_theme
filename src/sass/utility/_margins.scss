@@ -74,6 +74,10 @@
     margin-left: 1.25rem;
 }
 
+.ml-1-5 {
+    margin-left: 1.5rem;
+}
+
 .md-ml-auto {
     @include breakpoint(md) {
         margin-left: auto;

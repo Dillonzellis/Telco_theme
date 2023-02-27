@@ -29,6 +29,16 @@
     width: 20rem;
 }
 
+.w-70 {
+    width: 70%;
+}
+
+.md-w-70 {
+    @include breakpoint(md) {
+        width: 70%;
+    }
+}
+
 // CHARACTER WIDTHS 
 
 .md-width-ch-70 {
@@ -65,4 +75,9 @@
 // DIVI
 .width-unset {
     width: unset !important;
+}
+
+// ASPECT RATIO
+.aspect-video {
+    aspect-ratio: 16 / 9;
 }
