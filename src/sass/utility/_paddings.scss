@@ -190,3 +190,15 @@
         padding-bottom: 2rem;
     }
 }
+
+.xl-pt-15 {
+    @include breakpoint(xl) {
+        padding-top: 15rem;
+    }
+}
+
+.xl-pb-5 {
+    @include breakpoint(xl) {
+        padding-bottom: 5rem;
+    }
+}
