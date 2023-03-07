@@ -60,6 +60,12 @@
     max-width: 433px;
 }
 
+.md-max-width-300 {
+    @include breakpoint(md) {
+        max-width: 300px;
+    }
+}
+
 .md-max-width-500 {
     @include breakpoint(md) {
         max-width: 500px;
