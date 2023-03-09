@@ -46,6 +46,14 @@
   box-shadow: 0 1.125em 1em -1em $clr-neutral-500;
 }
 
+.btn-shadow-red {
+  box-shadow: 0 1.125em 1em -1em rgb(190 18 60);
+}
+
+.btn-no-shadow {
+  box-shadow: none;
+}
+
 .nav-btn {
   @include breakpoint(lg) {
     text-decoration: none !important;
