@@ -45,6 +45,38 @@
 }
 
 
+//Search Page
+.search-results {
+  .container {
+    &::before {
+      display: none;
+    }
+
+    .entry-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .post-meta {
+      display: none;
+    }
+
+
+  }
+
+  .alignleft,
+  .alignright {
+    color: $clr-primary-400;
+  }
+
+  #sidebar {
+    display: none;
+  }
+}
+
+
+
 // FULL BLEED
 // .full-bleed-neutral-700 {
 //   box-shadow: 0 0 0 100max $clr-primary-400;
