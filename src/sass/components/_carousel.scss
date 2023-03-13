@@ -1,11 +1,11 @@
-@use '/src/sass/abstracts/'as *;
+@use '/src/sass/abstracts/' as *;
 @use '/src/sass/base/' as *;
 
 
-.card{
+.card {
     text-align: center;
 
-    .card-content-wrapper{
+    .card-content-wrapper {
         width: 180px;
         height: 180px;
 
@@ -17,20 +17,20 @@
 
         border: 6px solid $clr-accent-400;
         border-radius: 100vmax;
-    
+
         margin-inline: auto;
-    
-        .card-title{
-            width: 15ch;
+
+        .card-title {
+            width: 12ch;
         }
     }
 }
 
-.divilife-3-col-feature-blurb-slider .slick-arrow:before{
+.divilife-3-col-feature-blurb-slider .slick-arrow:before {
     color: $clr-neutral-700 !important;
     opacity: 1 !important;
 }
 
-.slick-dots li.slick-active button{
-    background-color:$clr-primary-400 !important;
+.slick-dots li.slick-active button {
+    background-color: $clr-primary-400 !important;
 }
