@@ -53,6 +53,20 @@
   line-height: 2rem;
 }
 
+.md-fs-18 {
+  @include breakpoint(md) {
+    font-size: rem(18);
+    line-height: 1.5rem;
+  }
+}
+
+.md-fs-20 {
+  @include breakpoint(md) {
+    font-size: rem(20);
+    line-height: 1.75rem;
+  }
+}
+
 .fs-50 {
   font-size: rem(50);
   line-height: 1;
@@ -63,6 +77,8 @@
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
+
+
 
 // HEADINGS
 .primary-heading {
