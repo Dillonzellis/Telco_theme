@@ -1,0 +1,32 @@
+@use '/src/sass/abstracts/' as *;
+@use '/src/sass/base/' as *;
+
+//Search Page
+.search-results {
+    .container {
+        &::before {
+            display: none;
+        }
+
+        .entry-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .post-meta {
+            display: none;
+        }
+
+
+    }
+
+    .alignleft,
+    .alignright {
+        color: $clr-primary-400;
+    }
+
+    #sidebar {
+        display: none;
+    }
+}
