@@ -33,6 +33,12 @@
     width: 70%;
 }
 
+.md-w-50 {
+    @include breakpoint(md) {
+        width: 50%;
+    }
+}
+
 .md-w-70 {
     @include breakpoint(md) {
         width: 70%;
