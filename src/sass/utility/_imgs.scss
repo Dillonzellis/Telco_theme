@@ -92,6 +92,12 @@
   -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3), -69px 70px 0px -53px $clr-primary-400;
 }
 
+.contact-shadow-left {
+  box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3);
+}
+
 
 
 .hero-shadow-down {
