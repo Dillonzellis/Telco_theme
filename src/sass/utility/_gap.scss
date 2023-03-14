@@ -147,3 +147,9 @@
         row-gap: 2rem;
     }
 }
+
+.xl-gap-y-2 {
+    @include breakpoint(xl) {
+        row-gap: 2rem;
+    }
+}

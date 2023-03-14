@@ -12,6 +12,12 @@
   }
 }
 
+.xl-flex {
+  @include breakpoint(xl) {
+    display: flex;
+  }
+}
+
 // FLEX DIRECTION
 .flex-col {
   flex-direction: column;
@@ -49,4 +55,16 @@
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.xl-items-end {
+  @include breakpoint(xl) {
+    align-items: flex-end;
+  }
+}
+
+.xl-flex-row {
+  @include breakpoint(xl) {
+    flex-direction: row;
+  }
 }
