@@ -3,26 +3,19 @@
 
 .btn {
   display: inline-flex;
-  // display: inline-block;
   cursor: pointer;
   text-decoration: none;
   text-transform: capitalize;
   border: 0;
-  // border-radius: 7px;
   border-radius: 100vmax;
   padding: 0.8em 1.25em !important;
   font-weight: $fw-bold;
   line-height: 1;
-  // font-size: $fs-button;
-
   transform: scale(1);
   transition: transform 200ms ease;
-
-  // border: 3px solid $clr-primary-400;
-
-  color: $clr-neutral-100;
-  background-color: $clr-accent-400;
-  box-shadow: 0 1.125em 1em -1em $clr-accent-500;
+  color: $clr-primary-400;
+  background-color: white;
+  box-shadow: 0 1.125em 1em -1em $clr-primary-500;
 
   a {
     color: $clr-neutral-100;
@@ -36,6 +29,11 @@
       opacity: .3;
     }
   }
+}
+
+.btn-accent {
+  background-color: var(--clr-primary-400);
+  color: white
 }
 
 .btn-shadow-primary {
