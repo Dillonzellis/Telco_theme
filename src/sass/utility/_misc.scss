@@ -11,6 +11,14 @@
   cursor: pointer;
 }
 
+.gtranslate_wrapper {
+  display: none;
+
+  @include breakpoint(lg) {
+    display: block;
+  }
+}
+
 
 
 // FULL BLEED
@@ -51,6 +59,6 @@
 //   }
 // }
 
-.space {
-  min-height: 500px;
-}
+// .space {
+//   min-height: 500px;
+// }
