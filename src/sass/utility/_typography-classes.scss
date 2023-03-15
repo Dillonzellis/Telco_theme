@@ -34,12 +34,17 @@
   line-height: 1.75rem;
 }
 
+.fs-22 {
+  font-size: rem(22);
+  line-height: 1.75rem;
+}
+
 .fs-24 {
   font-size: rem(24);
   line-height: 2rem;
 }
 
-.fs-24 {
+.fs-28 {
   font-size: rem(28);
 }
 
@@ -64,6 +69,13 @@
   @include breakpoint(md) {
     font-size: rem(20);
     line-height: 1.75rem;
+  }
+}
+
+.md-fs-30 {
+  @include breakpoint(md) {
+    font-size: rem(30);
+    line-height: 2rem;
   }
 }
 
