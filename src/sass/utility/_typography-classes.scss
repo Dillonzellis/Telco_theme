@@ -72,6 +72,13 @@
   }
 }
 
+.md-fs-24 {
+  @include breakpoint(md) {
+    font-size: rem(24);
+    line-height: 2rem;
+  }
+}
+
 .md-fs-30 {
   @include breakpoint(md) {
     font-size: rem(30);

@@ -6,6 +6,12 @@
   display: none;
 }
 
+.md-block {
+  @include breakpoint(md) {
+    display: block;
+  }
+}
+
 
 .cursor-pointer {
   cursor: pointer;
