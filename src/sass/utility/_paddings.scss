@@ -167,6 +167,14 @@
     padding-top: 2rem
 }
 
+.pt-8 {
+    padding-top: 2rem;
+}
+
+.pb-14 {
+    padding-bottom: 3.5rem;
+}
+
 .md-pb-1 {
     @include breakpoint(md) {
         padding-bottom: 1rem;
@@ -221,5 +229,29 @@
 .xl-pb-5 {
     @include breakpoint(xl) {
         padding-bottom: 5rem;
+    }
+}
+
+.xl-pt-12 {
+    @include breakpoint(xl) {
+        padding-top: 3rem;
+    }
+}
+
+.xl-pb-26 {
+    @include breakpoint(xl) {
+        padding-bottom: 6.5rem;
+    }
+}
+
+.xxl-pt-16 {
+    @include breakpoint(xxl) {
+        padding-top: 4rem;
+    }
+}
+
+.xxl-pb-40 {
+    @include breakpoint(xxl) {
+        padding-bottom: 10rem;
     }
 }

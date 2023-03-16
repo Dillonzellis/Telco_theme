@@ -70,6 +70,10 @@
     max-width: 433px;
 }
 
+.max-width-1000 {
+    max-width: 1000px;
+}
+
 
 .md-max-width-300 {
     @include breakpoint(md) {
