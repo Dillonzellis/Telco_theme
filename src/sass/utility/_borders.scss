@@ -3,6 +3,10 @@
 
 // BORDER LOCATION 
 
+.border-2 {
+    border: 2px solid;
+}
+
 .border-5 {
     border: 5px solid;
 }
@@ -37,6 +41,10 @@
 
 .border-light-blue {
     border-color: hsla(203, 100%, 17%, 0.18);
+}
+
+.border-primary-400 {
+    border-color: $clr-primary-400;
 }
 
 .border-neutral-400 {
