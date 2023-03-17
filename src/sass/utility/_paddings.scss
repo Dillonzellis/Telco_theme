@@ -61,6 +61,11 @@
     padding-block: 3rem
 }
 
+.py-6-tw {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
 
 .md-py-3 {
     @include breakpoint(md) {
@@ -111,9 +116,19 @@
     padding-right: 4.5rem;
 }
 
+.px-3-tw {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
 .px-6-tw {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+}
+
+.py-4-tw {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 // PADDING BOTTOM
@@ -204,6 +219,25 @@
     @include breakpoint(lg) {
         padding-top: 3rem;
         padding-bottom: 3rem;
+    }
+}
+
+.px-12-tw {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.md-px-12-tw {
+    @include breakpoint(md) {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+.md-py-10-tw {
+    @include breakpoint(md) {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
     }
 }
 
