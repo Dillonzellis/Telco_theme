@@ -48,26 +48,26 @@ p {
 }
 
 a:focus {
-  outline: dashed red !important;
+  outline: dashed var(--clr-accent-300) !important;
 }
 
 input:focus {
-  outline: dashed red;
+  outline: dashed var(--clr-accent-300);
 }
 
 iframe:focus {
-  outline: dashed red;
+  outline: dashed var(--clr-accent-300);
 }
 
 button:focus {
-  outline: dashed red !important;
+  outline: dashed var(--clr-accent-300) !important;
 }
 
 .mega-indicator:focus {
-  outline: dashed red !important;
+  outline: dashed var(--clr-accent-300) !important;
 }
 
 .swiper-button-next:focus,
 .swiper-button-prev:focus {
-  outline: dashed red !important;
+  outline: dashed var(--clr-accent-300) !important;
 }
