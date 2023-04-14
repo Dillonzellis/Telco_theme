@@ -13,11 +13,15 @@
 .mega-menu-link {
     color: $clr-primary-400 !important;
     font-weight: $fw-bold !important;
-    font-size: 0.875rem !important;
+    font-size: 1.125rem !important;
 
-    @media(min-width:1250px) {
-        font-size: 1.125rem !important;
+    @media(min-width:1000px) and (max-width:1249px) {
+        font-size: 0.875rem !important;
     }
+
+    // @media(min-width:1250px) {
+    //     font-size: 1.125rem !important;
+    // }
 
     font-family: $ff-primary !important;
 
@@ -32,6 +36,13 @@
             float: unset !important;
         }
     }
+}
+
+#mega-menu-item-225985>a,
+#mega-menu-item-226700>a,
+#mega-menu-item-226917>a,
+#mega-menu-item-227319>a {
+    pointer-events: none !important;
 }
 
 
