@@ -289,3 +289,9 @@
         padding-bottom: 10rem;
     }
 }
+
+.max-lg-pb-4 {
+    @include breakpoint-down(lg) {
+        padding-bottom: 1rem !important;
+    }
+}
