@@ -116,3 +116,13 @@
 .h-full {
     height: 100%;
 }
+
+.min-h-375 {
+    min-height: 375px;
+}
+
+@include breakpoint(md) {
+    .md-min-h-500 {
+        min-height: 500px;
+    }
+}
