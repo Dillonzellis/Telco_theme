@@ -59,3 +59,14 @@ banking>rates
 
 pg.17
 -that is your online banking provider trying to take mobile users to the app initially. We cant change that.
+
+pg.19 button section review
+
+pg.20 modals too long?
+
+pg.21 financial calculators => they have custom calcs
+=make phone numbers work and use - format instead of dot
+
+pg.22 we need the forms not on live site 
+
+pg.23 youtube section add more embedded videos
