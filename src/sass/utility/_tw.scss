@@ -1,3 +1,6 @@
+@use "/src/sass/abstracts/" as *;
+@use "/src/sass/base/" as *;
+
 .rounded-md {
     border-radius: 0.375rem;
 }
@@ -33,4 +36,54 @@
 
 .gap-8-tw {
     gap: 2rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.border-r-4 {
+    border-right-width: 1rem;
+}
+
+.border-l-4 {
+    border-left-width: 1rem;
+}
+
+.border-brandingBlue-500 {
+    border-color: var(--clr-primary-500);
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.pt-4 {
+    padding-top: 1rem;
+}
+
+.left-50 {
+    left: 50%;
+}
+
+.-translate-x-50 {
+    transform: translateX(-50%);
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.lg-justify-between {
+    @include breakpoint(lg) {
+        justify-content: space-between;
+    }
 }
