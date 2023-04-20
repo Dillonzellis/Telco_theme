@@ -35,3 +35,23 @@ Mortgage
 Financial Calculators
 
 form links?
+
+2ND PDF
+
+home hero page view/mobile view
+
+"The Learn more does a fast scroll to the Contact. Its weird and the wrong numbers"
+-about footer cta/this is a result of the long pages
+-the numbers are current with the live site
+
+Mortgage
+-helpful info get field guide flip book
+
+savings
+-the ncua modal is too big?
+
+review why phone numbers arent working
+
+banking>rates
+-table is cut off on mobile
+=just slide finger to see more

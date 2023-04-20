@@ -53,7 +53,10 @@
 }
 
 .nav-btn {
+  display: none !important;
+
   @include breakpoint(lg) {
+    display: inline-flex !important;
     text-decoration: none !important;
     text-transform: capitalize !important;
     border: 0 !important;

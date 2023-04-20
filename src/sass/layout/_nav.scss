@@ -42,7 +42,9 @@
 #mega-menu-item-226700>a,
 #mega-menu-item-226917>a,
 #mega-menu-item-227319>a {
-    pointer-events: none !important;
+    @include breakpoint(lg) {
+        pointer-events: none !important;
+    }
 }
 
 
