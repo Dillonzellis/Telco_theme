@@ -12,6 +12,18 @@
   }
 }
 
+.lg-block {
+  @include breakpoint(lg) {
+    display: block;
+  }
+}
+
+.lg-hidden {
+  @include breakpoint(lg) {
+    display: none;
+  }
+}
+
 
 .cursor-pointer {
   cursor: pointer;

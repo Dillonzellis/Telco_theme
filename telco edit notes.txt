@@ -1,19 +1,6 @@
+1ST PDF
 
 -mobile menu alignment with logo
-
--Banking>products
-=Courtesy Pay click here link?
-
-
-Lending
--loans
-=where should hyperlink go?
-
--student loans accordion
-=where does apply now button link to
-
-
--double check all phone numbers
 
 digital branch
 -find forms
@@ -25,48 +12,39 @@ Mortgage graphics
 -lightbox?
 
 
-Mortgage
--home equities add phone number/what number to call?
--apply now button link?
--helpful info btn link?
+pg19 all in one page suggestion
 
-1st pdf pg 19 all in one page suggestion
-
-Financial Calculators
-
-form links?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 2ND PDF
 
-home hero page view/mobile view
-
+pg.2
 "The Learn more does a fast scroll to the Contact. Its weird and the wrong numbers"
--about footer cta/this is a result of the long pages
--the numbers are current with the live site
+this is a result of the long pages
 
-Mortgage
--helpful info get field guide flip book
+pg.8/pg.20
+-modal is too big?
+=make font size 12px on smaller screens
 
-savings
--the ncua modal is too big?
-
-review why phone numbers arent working
-
+pg.15
 banking>rates
 -table is cut off on mobile
 =just slide finger to see more
-
 
 pg.17
 -that is your online banking provider trying to take mobile users to the app initially. We cant change that.
 
 pg.19 button section review
 
-pg.20 modals too long?
-
 pg.21 financial calculators => they have custom calcs
-=make phone numbers work and use - format instead of dot
-
-pg.22 we need the forms not on live site 
 
 pg.23 youtube section add more embedded videos
+
+pg25 revamp q & a section
+-more color and plus li's
+-bring green back
+
+pg27 community logos
+-more like old site
+
+contact us svgs

@@ -153,3 +153,9 @@
         margin-bottom: 1rem;
     }
 }
+
+.lg-mb-3 {
+    @include breakpoint(lg) {
+        margin-bottom: 3rem;
+    }
+}
