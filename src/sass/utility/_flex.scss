@@ -52,10 +52,13 @@
   justify-content: space-around;
 }
 
-
 .flex-wrap {
   flex-wrap: wrap;
 }
+
+// .items-base {
+//   align-items: baseline;
+// }
 
 .xl-items-end {
   @include breakpoint(xl) {

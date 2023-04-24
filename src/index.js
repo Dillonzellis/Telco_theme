@@ -1,5 +1,6 @@
 // Styles
-import './main.scss'
+import "./main.scss";
 
 // Js
-import './js/main'
+import "./js/custom-nav";
+import "./js/main";

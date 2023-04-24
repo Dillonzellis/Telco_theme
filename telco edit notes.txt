@@ -1,6 +1,6 @@
 1ST PDF
 
--mobile menu alignment with logo
+-mobile menu alignment with logo***
 
 digital branch
 -find forms
@@ -8,7 +8,7 @@ digital branch
 Modals scroll to top of page
 -limitation of plugin
 
-Mortgage graphics
+Mortgage graphics***
 -lightbox?
 
 
@@ -22,7 +22,7 @@ pg.2
 "The Learn more does a fast scroll to the Contact. Its weird and the wrong numbers"
 this is a result of the long pages
 
-pg.8/pg.20
+pg.8/pg.20***
 -modal is too big?
 =make font size 12px on smaller screens
 
@@ -34,17 +34,17 @@ banking>rates
 pg.17
 -that is your online banking provider trying to take mobile users to the app initially. We cant change that.
 
-pg.19 button section review
+pg.19 button section review***
 
 pg.21 financial calculators => they have custom calcs
 
-pg.23 youtube section add more embedded videos
+pg.23 youtube section add more embedded videos***
 
-pg25 revamp q & a section
+pg25 revamp q & a section***
 -more color and plus li's
 -bring green back
 
-pg27 community logos
+pg27 community logos***
 -more like old site
 
-contact us svgs
+contact us svgs***

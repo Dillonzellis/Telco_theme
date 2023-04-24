@@ -33,6 +33,11 @@
     margin-bottom: 3rem;
 }
 
+.my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .lg-mb-2 {
     @include breakpoint(lg) {
         margin-bottom: 2rem;
