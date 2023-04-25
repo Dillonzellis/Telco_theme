@@ -100,9 +100,49 @@ nav {
 
     @media(min-width:1000px) {
         position: absolute;
+        width: 250px;
+        background-color: var(--clr-primary-400);
+        border-radius: 5px;
+        gap: 0 !important;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+        li:hover {
+            background-color: var(--clr-accent-400);
+        }
+
+
+        a {
+            // font-size: 14px;
+            color: #fff;
+            padding-inline: 1rem;
+            padding-block: 1.125rem;
+            display: block;
+            border-bottom: 2px solid white;
+            // line-height: 30px;
+        }
     }
 }
 
 .capitalize {
     text-transform: capitalize;
+}
+
+.lg-right-0 {
+    @media(min-width:1000px) {
+        right: 0;
+    }
+}
+
+.lg-border-radius-top-hover:hover {
+    @media(min-width:1000px) {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+}
+
+.lg-border-radius-bottom-hover:hover {
+    @media(min-width:1000px) {
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
 }
