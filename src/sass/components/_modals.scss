@@ -1,8 +1,18 @@
 @use '/src/sass/abstracts/' as *;
 @use '/src/sass/base/' as *;
 
-.wow-modal-window {
+.wow-modal-window-content {
     padding: 0;
+}
+
+.modal-window-content {
+    p {
+        font-size: 0.75rem;
+
+        @media(min-width: 768px) {
+            font-size: 1rem;
+        }
+    }
 }
 
 

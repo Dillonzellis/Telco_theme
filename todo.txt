@@ -1,12 +1,6 @@
-mobile menu alignment with logo***
-=new menu
 
 Mortgage graphics***
 -lightbox?
-
-pg.8/pg.20***
--modal is too big?
-=make font size 12px on smaller screens
 
 pg.19 button section review***
 

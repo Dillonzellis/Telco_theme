@@ -1,12 +1,7 @@
 1ST PDF
 
--mobile menu alignment with logo***
-
 digital branch
 -find forms
-
-Modals scroll to top of page
--limitation of plugin
 
 Mortgage graphics***
 -lightbox?
@@ -21,10 +16,6 @@ pg19 all in one page suggestion
 pg.2
 "The Learn more does a fast scroll to the Contact. Its weird and the wrong numbers"
 this is a result of the long pages
-
-pg.8/pg.20***
--modal is too big?
-=make font size 12px on smaller screens
 
 pg.15
 banking>rates
