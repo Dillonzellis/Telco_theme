@@ -98,7 +98,24 @@
   -moz-box-shadow: 13px 8px 13px -2px rgba(0, 0, 0, 0.3);
 }
 
+// FAQS
+.faq-shadow-left {
+  box-shadow: 0 1.5px 1.5px 0 rgba(0, 0, 0, .08), -69px 70px 0px -53px $clr-primary-400;
+  -webkit-box-shadow: 0 1.5px 1.5px 0 rgba(0, 0, 0, .08), -69px 70px 0px -53px $clr-primary-400;
+  -moz-box-shadow: 0 1.5px 1.5px 0 rgba(0, 0, 0, .08), -69px 70px 0px -53px $clr-primary-400;
+}
 
+.faq-shadow-center {
+  box-shadow: 0 1.5px 1.5px 0 rgba(0, 0, 0, .08);
+  -webkit-box-shadow: 0 1.5px 1.5px 0 rgba(0, 0, 0, .08);
+  -moz-box-shadow: 0 1.5px 1.5px 0 rgba(0, 0, 0, .08);
+}
+
+.faq-shadow-right {
+  box-shadow: 0 1.5px 1.5px 0 rgba(0, 0, 0, .08), 69px 70px 0px -53px $clr-neutral-400;
+  -webkit-box-shadow: 0 1.5px 1.5px 0 rgba(0, 0, 0, .08), 69px 70px 0px -53px $clr-neutral-400;
+  -moz-box-shadow: 0 1.5px 1.5px 0 rgba(0, 0, 0, .08), 69px 70px 0px -53px $clr-neutral-400;
+}
 
 .hero-shadow-down {
   box-shadow: 0px 8px 13px -2px rgba(0, 0, 0, 0.3);

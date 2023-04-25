@@ -164,3 +164,15 @@
         margin-bottom: 3rem;
     }
 }
+
+.lg-mt-10 {
+    @include breakpoint(lg) {
+        margin-top: 10rem;
+    }
+}
+
+.lg-mb-4 {
+    @include breakpoint(lg) {
+        margin-bottom: 4rem;
+    }
+}

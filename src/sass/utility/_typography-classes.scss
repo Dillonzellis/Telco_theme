@@ -91,6 +91,13 @@
   line-height: 1;
 }
 
+.lg-fs-54 {
+  @include breakpoint(lg) {
+    font-size: rem(54);
+    line-height: 1;
+  }
+}
+
 // TAILWIND FZ CLASSES
 .text-lg {
   font-size: 1.125rem;
