@@ -116,6 +116,10 @@
     row-gap: 0.5rem;
 }
 
+.gap-y-075 {
+    row-gap: 0.75rem;
+}
+
 .gap-y-1 {
     row-gap: 1rem;
 }
@@ -126,6 +130,16 @@
 
 .gap-y-3 {
     row-gap: 3rem;
+}
+
+.gap-y-6 {
+    row-gap: 1.5rem;
+}
+
+.lg-gap-y-6 {
+    @include breakpoint(lg) {
+        row-gap: 1.5rem;
+    }
 }
 
 .lg-row-gap-1 {
