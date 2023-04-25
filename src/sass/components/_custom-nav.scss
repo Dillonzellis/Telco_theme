@@ -67,21 +67,6 @@ nav {
     display: flex;
 }
 
-// .dropdown__menu {
-//     opacity: 0;
-//     transition: opacity 0.2s ease-in-out;
-// }
-
-// .dropdown:hover .dropdown__menu {
-//     opacity: 1;
-//     display: block;
-// }
-
-// .dropdown__menu:hover {
-//     opacity: 1;
-//     display: block;
-// }
-
 .dropdown__toggle.active {
     text-decoration: underline;
     text-decoration-color: var(--clr-accent-400)
@@ -117,7 +102,7 @@ nav {
             padding-inline: 1rem;
             padding-block: 1.125rem;
             display: block;
-            border-bottom: 2px solid white;
+            border-bottom: 1px solid rgb(187, 187, 187);
             // line-height: 30px;
         }
     }
