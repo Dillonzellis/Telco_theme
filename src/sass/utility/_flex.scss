@@ -52,6 +52,10 @@
   justify-content: space-around;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -59,6 +63,12 @@
 // .items-base {
 //   align-items: baseline;
 // }
+
+.md-justify-end {
+  @media(min-width:768px) {
+    justify-content: flex-end;
+  }
+}
 
 .lg-flex-1 {
   @include breakpoint(lg) {
@@ -75,5 +85,11 @@
 .xl-flex-row {
   @include breakpoint(xl) {
     flex-direction: row;
+  }
+}
+
+.md-justify-end {
+  @media(min-width:768px) {
+    justify-content: flex-end;
   }
 }
