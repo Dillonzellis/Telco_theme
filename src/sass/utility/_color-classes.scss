@@ -51,6 +51,11 @@
   }
 }
 
+.lg-bgc-neutral-100 {
+  @include breakpoint(lg) {
+    background-color: $clr-neutral-100;
+  }
+}
 
 
 // .bgc-neutral-700-min-lg {
@@ -92,11 +97,7 @@
   color: $clr-neutral-100;
 }
 
-.lg-clr-neutral-100 {
-  @include breakpoint(lg) {
-    color: $clr-neutral-100;
-  }
-}
+
 
 .clr-neutral-700 {
   color: $clr-neutral-700;
@@ -146,4 +147,11 @@
 
 .bg-text-rose-700 {
   background-color: rgb(190 18 60);
+}
+
+
+.lg-bgc-clr-neutral-100 {
+  @include breakpoint(lg) {
+    background-color: $clr-neutral-100;
+  }
 }

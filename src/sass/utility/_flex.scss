@@ -60,6 +60,12 @@
 //   align-items: baseline;
 // }
 
+.lg-flex-1 {
+  @include breakpoint(lg) {
+    flex: 1 1 0%;
+  }
+}
+
 .xl-items-end {
   @include breakpoint(xl) {
     align-items: flex-end;

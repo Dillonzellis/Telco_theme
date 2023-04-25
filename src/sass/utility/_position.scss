@@ -24,6 +24,12 @@
   position: relative;
 }
 
+.lg-relative {
+  @include breakpoint(lg) {
+    position: relative !important;
+  }
+}
+
 // TEXT ALIGNMENT
 .text-center {
   text-align: center;

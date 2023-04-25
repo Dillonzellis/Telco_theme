@@ -13,20 +13,20 @@
   <body>
     <nav class="container-de pt-1 flex items-center justify-between">
       <img src="https://dev3.growthbydesign.org/wp-content/uploads/2022/10/logo.png" alt="" srcset="" />
-      <div>
-        <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+      <div class="lg-flex-1">
+        <button class="navbar-toggler lg-hidden" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <div class="hamburger">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
           </div>
         </button>
-        <div class="nav-bar hidden absolute w-full bgc-primary-400 left-0 py-1">
-          <ul class="list-none w-full flex flex-col gap-y-1 uppercase px-1-f">
-            <li><a href="">Mortgage</a></li>
-            <li class="dropdown flex justify-between">
-              <a href="#" class="">Banking</a>
-              <span class="dropdown__toggle clr-neutral-100">></span>
+        <div class="nav-bar hidden lg-block absolute w-full bgc-primary-400 left-0 py-1 lg-relative lg-bgc-clr-neutral-100">
+          <ul class="list-none w-full flex flex-col gap-y-1 uppercase px-1-f lg-flex-row lg-justify-between">
+            <li><a href="" class="fw-semi-bold">Mortgage</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown__toggle fw-semi-bold">Banking</a>
               <ul class="dropdown__menu hidden list-none flex-col gap-y-05 my-4">
                 <li><a href="">Checking</a></li>
                 <li><a href="">savings</a></li>
@@ -35,8 +35,8 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="" class="dropdown__toggle">Lending</a>
-              <ul class="dropdown__menu hidden list-none">
+              <a href="" class="dropdown__toggle fw-semi-bold">Lending</a>
+              <ul class="dropdown__menu hidden list-none flex-col gap-y-05 my-4">
                 <li><a href="">Loans</a></li>
                 <li><a href="">loan application</a></li>
                 <li><a href="">products</a></li>
@@ -44,8 +44,8 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="" class="dropdown__toggle">Digital Branch</a>
-              <ul class="dropdown__menu hidden list-none">
+              <a href="" class="dropdown__toggle fw-semi-bold">Digital Branch</a>
+              <ul class="dropdown__menu hidden list-none flex-col gap-y-05 my-4">
                 <li><a href="">self services</a></li>
                 <li><a href="">calculators</a></li>
                 <li><a href="">Contact & links</a></li>
@@ -57,8 +57,8 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="" class="dropdown__toggle">About</a>
-              <ul class="dropdown__menu hidden list-none">
+              <a href="" class="dropdown__toggle fw-semi-bold">About</a>
+              <ul class="dropdown__menu hidden list-none flex-col gap-y-05 my-4">
                 <li><a href="">about us</a></li>
                 <li><a href="">locations & contact us</a></li>
                 <li><a href="">Current news & holidays</a></li>
