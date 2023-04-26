@@ -276,15 +276,6 @@
           const cardRow = document.querySelector(".card-row");
           cardRow.appendChild(card);
 
-          //if card-row has no children remove card-row
-          if (!cardRow.hasChildNodes()) {
-            cardRow.style.display = "none";
-          }
-
-          if (!cardRow.hasChildNodes()) {
-            cardRow.style.marginBottom = "0";
-          }
-
           //reset page to where it was before
           if (searchValue === "") {
             cards.forEach((card) => {
@@ -293,7 +284,10 @@
           }
         });
 
-        //if card-row has no children remove all margin
+        //if card-row has no children remove card-row
+        if (cardRow.children.length === 0) {
+          cardRow.remove();
+        }
       });
     </script>
 
