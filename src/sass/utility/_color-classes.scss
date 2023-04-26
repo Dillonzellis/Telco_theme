@@ -155,3 +155,9 @@
     background-color: $clr-neutral-100;
   }
 }
+
+.lg-clr-neutral-100 {
+  @include breakpoint(lg) {
+    color: $clr-neutral-100;
+  }
+}
