@@ -246,6 +246,12 @@
     }
 }
 
+.lg-p-1 {
+    @include breakpoint(lg) {
+        padding: 1rem;
+    }
+}
+
 .xl-pb-5 {
     @include breakpoint(xl) {
         padding-bottom: 5rem;

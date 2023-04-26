@@ -72,6 +72,12 @@ nav {
     display: flex;
 }
 
+.dropdown__toggle {
+    @media(min-width:1000px) {
+        padding: 1rem;
+    }
+}
+
 .dropdown__toggle.active {
     text-decoration: underline;
     text-decoration-color: var(--clr-accent-400)
@@ -125,8 +131,8 @@ nav {
 
 .lg-border-radius-top-hover:hover {
     @media(min-width:1000px) {
-        border-top-right-radius: 5px;
-        border-top-left-radius: 5px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
     }
 }
 
