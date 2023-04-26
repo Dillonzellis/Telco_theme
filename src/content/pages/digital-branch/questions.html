@@ -53,9 +53,7 @@
             <p class="">Please log into Home Banking, the mobile app, or use audio response to get your current balance. Account balances cannot be answered after hours by a representative.</p>
           </div>
         </div>
-      </div>
 
-      <div class="card-row">
         <div class="card-de faq-shadow-center">
           <div class="gap-y-075 lg-gap-y-6 flex flex-col">
             <h3 class="text-lg font-semibold">Can I join online?</h3>
@@ -74,9 +72,7 @@
             <p class="">Your initial Username for Home Banking and mobile app is your Telco Plus member number. We urge you to immediately change this to something else when you log in for the first time. You can change your password in Home Banking. Click on the User Icon on the top right of your screen that will take you to Profile &amp; Settings, then select Change Username.</p>
           </div>
         </div>
-      </div>
 
-      <div class="card-row">
         <div class="card-de faq-shadow-left">
           <div class="gap-y-075 lg-gap-y-6 flex flex-col">
             <h3 class="text-lg font-semibold">How do I unlock my account?</h3>
@@ -95,9 +91,7 @@
             <p class="">Please download the Telco Plus Credit Union mobile app to your device. It is the same login information as Home Banking. If you have never used either service, you will need to use the "enroll now" option.</p>
           </div>
         </div>
-      </div>
 
-      <div class="card-row">
         <div class="card-de faq-shadow-center">
           <div class="gap-y-075 lg-gap-y-6 flex flex-col">
             <h3 class="text-lg font-semibold">I lost my debit card, what should I do?</h3>
@@ -116,9 +110,7 @@
             <p class="">For security reasons we cannot reset PINs for members over the phone or through online services. You can reset your pin in the lobby or by calling the automated system 866-762-0558. For this to work, all of your information must be correct in our system.</p>
           </div>
         </div>
-      </div>
 
-      <div class="card-row">
         <div class="card-de faq-shadow-left">
           <div class="gap-y-075 lg-gap-y-6 flex flex-col">
             <h3 class="text-lg font-semibold">My card is not working?</h3>
@@ -137,9 +129,7 @@
             <p class="">The lobby is 9 a.m. to 5:30 p.m. Monday through Wednesday; 9 a.m. to 6 p.m. on Thursday and Friday; and 9 a.m. to Noon on Saturdays. Longview Drive Thru is 7:30 a.m. to 5:30 p.m. Monday through Wednesday and 7:30 a.m. to 6 p.m. Thursday and Friday; and 9 a.m. to Noon on Saturdays. The Tyler branch drive-thru opens at 8:30 a.m Monday – Friday and 9 a.m. on Saturdays.</p>
           </div>
         </div>
-      </div>
 
-      <div class="card-row">
         <div class="card-de faq-shadow-center">
           <div class="gap-y-075 lg-gap-y-6 flex flex-col">
             <h3 class="text-lg font-semibold">Do you do shared branching through the drive-thru?</h3>
@@ -160,16 +150,7 @@
         </div>
       </div>
 
-      <div class="card-row">
-        <div class="card-de faq-shadow-left">
-          <div class="gap-y-075 lg-gap-y-6 flex flex-col">
-            <h3 class="text-lg font-semibold">Do you have gift cards?</h3>
-            <p class="">Yes, we have several different styles of gift cards that can be purchased. You can load up to $1,000 on a gift card. You can send a request for a gift card through secure email in Home Banking, App, or make a purchase in person. Give the gift of choice today!</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="title-wrapper flex flex-col gap-y-1 lg-mt-10">
+      <div id="loan-title" class="title-wrapper flex flex-col gap-y-1 lg-mt-10">
         <h2 class="fw-bold">Got questions about loans? We've got answers!</h2>
         <div class="max-width-ch-70">Our loan FAQs provide helpful information on everything from the application process to repayment options. Find the guidance you need to make informed borrowing decisions</div>
       </div>
@@ -193,9 +174,7 @@
             <p class="">Appointments are preferred at the Longview branch due to high demand and not to waste your time. The Tyler branch accepts walk-ins and appointments. You can call or email a lender to see if there is a good time to come in. loanlist@telcoplus.org or 903-753-5588, 903-597-4321</p>
           </div>
         </div>
-      </div>
 
-      <div class="card-row">
         <div class="card-de faq-shadow-center">
           <div class="gap-y-075 lg-gap-y-6 flex flex-col">
             <h3 class="text-lg font-semibold">How to make a loan payment?</h3>
@@ -214,9 +193,7 @@
             <p class="">You can refinance your car the very next day! Regardless of what the salesperson might have told you, you do not have to wait to refinance for a better deal with us.</p>
           </div>
         </div>
-      </div>
 
-      <div class="card-row">
         <div class="card-de faq-shadow-left">
           <div class="gap-y-075 lg-gap-y-6 flex flex-col">
             <h3 class="text-lg font-semibold">What documents are needed to do an auto refinance?</h3>
@@ -235,9 +212,7 @@
             <p class="">You can transfer money from your Telco Plus account to make a payment or use the Visa card payment website to make a payment. www.ezcardinfo.com. You can mail the payment to VISA PO Box 4521, Carol Stream, IL 60197-4521. *Payments will be reflected the next day.</p>
           </div>
         </div>
-      </div>
 
-      <div class="card-row">
         <div class="card-de faq-shadow-center">
           <div class="gap-y-075 lg-gap-y-6 flex flex-col">
             <h3 class="text-lg font-semibold">How to view VISA® credit card transactions, balances, and print statements?</h3>
@@ -256,6 +231,12 @@
     <script>
       const searchInput = document.getElementById("search-input");
       const cards = document.querySelectorAll(".card-de");
+
+      // two different arrays generalQuestions and loanQuestions
+      // loop through generalQuestions and loanQuestions and push to cards array
+
+      // when input is empty remove matchCards
+      // then add back generalQuestions and loanQuestions arrays like they were originally
 
       const matchedCards = [];
 
@@ -276,6 +257,10 @@
           const cardRow = document.querySelector(".card-row");
           cardRow.appendChild(card);
 
+          //hide loan-title
+          // const loanTitle = document.querySelector(".loan-title");
+          // loanTitle.style.display = "none";
+
           //reset page to where it was before
           if (searchValue === "") {
             cards.forEach((card) => {
@@ -285,9 +270,9 @@
         });
 
         //if card-row has no children remove card-row
-        if (cardRow.children.length === 0) {
-          cardRow.remove();
-        }
+        // if (cardRow.children.length === 0) {
+        //   cardRow.remove();
+        // }
       });
     </script>
 
