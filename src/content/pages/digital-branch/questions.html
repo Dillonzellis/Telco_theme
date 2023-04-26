@@ -32,6 +32,8 @@
         <div>Find answers to the most commonly asked questions below. Search for topics you're interested in.</div>
       </div> -->
 
+      <input type="text" id="search-input" placeholder="Search..." />
+
       <div class="card-row">
         <div class="card-de faq-shadow-left">
           <div class="gap-y-075 lg-gap-y-6 flex flex-col">
@@ -250,6 +252,50 @@
         </div>
       </div>
     </div>
+
+    <script>
+      const searchInput = document.getElementById("search-input");
+      const cards = document.querySelectorAll(".card-de");
+
+      const matchedCards = [];
+
+      searchInput.addEventListener("input", () => {
+        const searchValue = searchInput.value.toLowerCase();
+
+        cards.forEach((card) => {
+          const cardContent = card.textContent.toLowerCase();
+          if (cardContent.includes(searchValue)) {
+            matchedCards.push(card);
+          } else {
+            card.style.display = "none";
+          }
+        });
+
+        //loop through matched cards add cards to card-row class as children
+        matchedCards.forEach((card) => {
+          const cardRow = document.querySelector(".card-row");
+          cardRow.appendChild(card);
+
+          //if card-row has no children remove card-row
+          if (!cardRow.hasChildNodes()) {
+            cardRow.style.display = "none";
+          }
+
+          if (!cardRow.hasChildNodes()) {
+            cardRow.style.marginBottom = "0";
+          }
+
+          //reset page to where it was before
+          if (searchValue === "") {
+            cards.forEach((card) => {
+              card.style.display = "block";
+            });
+          }
+        });
+
+        //if card-row has no children remove all margin
+      });
+    </script>
 
     <!-- next faqs body -->
     <!-- <div class="container-de mx-auto px-6">
