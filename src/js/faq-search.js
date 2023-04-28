@@ -3,6 +3,7 @@ const cards = document.querySelectorAll(".card-de");
 
 // two different arrays generalQuestions and loanQuestions
 // loop through generalQuestions and loanQuestions and push to cards array
+// if search results show nothing show a message saying no results found
 
 // when input is empty remove matchCards
 // then add back generalQuestions and loanQuestions arrays like they were originally
