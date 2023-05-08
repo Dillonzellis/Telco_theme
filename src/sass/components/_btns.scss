@@ -57,14 +57,17 @@
   font-size: 1.125rem;
   font-weight: 600;
 
+  @media(min-width:1000px) {
+    font-size: 1rem;
+    padding: 1rem;
+  }
 
 
-  @media(min-width: 1000px) {
+  @media(min-width: 1250px) {
     background-color: var(--clr-primary-400);
     color: white !important;
     border-radius: 5px;
     border-radius: 100vmax;
-    font-size: 1rem;
   }
 
   @media(min-width: 93.75em) {

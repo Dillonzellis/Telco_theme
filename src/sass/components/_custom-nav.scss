@@ -6,7 +6,7 @@ nav {
             max-width: 100%;
         }
 
-        @media(min-width:1000px) {
+        @media(min-width:1200px) {
             margin-right: 4rem;
         }
     }
@@ -142,4 +142,8 @@ nav {
         border-bottom-right-radius: 5px;
         border-bottom-left-radius: 5px;
     }
+}
+
+.dropdown {
+    text-align: center;
 }
