@@ -90,6 +90,10 @@ nav {
 }
 
 .dropdown__menu {
+    li {
+        text-align: start;
+    }
+
     a {
         text-transform: capitalize;
         font-weight: 500;
