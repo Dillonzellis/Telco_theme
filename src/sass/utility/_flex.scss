@@ -23,6 +23,10 @@
   flex-direction: column;
 }
 
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
 .md-flex-row {
   @include breakpoint(md) {
     flex-direction: row;
