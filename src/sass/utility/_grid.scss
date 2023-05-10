@@ -11,6 +11,12 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.lg-grid-cols-1fr-1fr-2fr {
+    @media(min-width: 1000px) {
+        grid-template-columns: 1fr 1fr 2fr;
+    }
+}
+
 .grid-cols-85-1 {
     @media(min-width: em(450)) {
         grid-template-columns: 0.85fr 1fr;
@@ -97,6 +103,12 @@
 .lg-max-order-2 {
     @include breakpoint-down(lg) {
         order: 2;
+    }
+}
+
+.lg-max-order-3 {
+    @include breakpoint-down(lg) {
+        order: 3;
     }
 }
 
