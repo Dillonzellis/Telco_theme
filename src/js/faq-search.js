@@ -5,8 +5,8 @@ const resultsFail = document.getElementById("results-fail");
 const generalQA = document.querySelector("#generalQA");
 const loanQA = document.querySelector("#loanQA");
 
-const generalCards = generalQA.querySelectorAll(".card-de");
-const loanCards = loanQA.querySelectorAll(".card-de");
+const generalCards = generalQA.querySelector(".card-de") ? generalQA.querySelectorAll(".card-de") : null;
+const loanCards = loanQA.querySelectorAll(".card-de") ? loanQA.querySelectorAll(".card-de") : null;
 
 const generalQuestions = [];
 const loanQuestions = [];

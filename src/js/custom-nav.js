@@ -1,5 +1,3 @@
-console.log("nav");
-
 const hamburger = document.querySelector(".hamburger");
 const navBar = document.querySelector(".nav-bar");
 
