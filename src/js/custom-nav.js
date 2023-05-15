@@ -3,6 +3,8 @@ const navBar = document.querySelector(".nav-bar");
 
 const dropDown = document.querySelector(".drop-down");
 
+
+
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
 
@@ -34,16 +36,3 @@ function closeAllDropdowns() {
     toggle.classList.remove("active");
   });
 }
-
-//
-// const dropdownLiElements = document.querySelectorAll(".dropdown");
-
-// dropdownLiElements.forEach((li) => {
-//   const dropdownMenu = li.querySelector(".dropdown__menu");
-//   li.addEventListener("mouseenter", () => {
-//     dropdownMenu.classList.add("active");
-//   });
-//   li.addEventListener("mouseleave", () => {
-//     dropdownMenu.classList.remove("active");
-//   });
-// });

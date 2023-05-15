@@ -15,6 +15,15 @@
     <div class="container-de">
       <div class="[ py-1 md-py-2 ]">
         <div class="[ flex gap-1 ] [ justify-between md-justify-end items-center ] [ clr-primary-400 fw-semi-bold ]">
+          <div class="esp-toggle">
+            <div>Espanol</div>
+            <ul class="esp-dropdown hidden">
+              <li><a href="https://dev3.growthbydesign.org/espanol/#ahorros">Las Cuentas De Ahorros</a></li>
+              <li><a href="https://dev3.growthbydesign.org/espanol/#cheques/">Cuentas De Cheques</a></li>
+              <li><a href="https://dev3.growthbydesign.org/espanol/#pr%C3%A9stamos">Préstamos Para Los Consumidores</a></li>
+              <li><a href="https://dev3.growthbydesign.org/espanol/#servicious">Servicious Adicionales</a></li>
+            </ul>
+          </div>
           <div class="[ fs-12 md-fs-14 ]">ROUTING NO: 311985791</div>
           <div class="[ fs-12 md-fs-14 ]"><a class="clr-primary-400" href="tel:+1903-753-5588">(903) 753-5588</a></div>
           <svg id="search-icon" class="cursor-pointer" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,6 +51,16 @@
       searchBtn.addEventListener("click", () => {
         const searchBar = document.querySelector(".search-bar-container");
         searchBar.classList.toggle("search-active");
+      });
+    </script>
+
+    <script>
+      const espToggle = document.querySelector(".esp-toggle");
+      const espDropdown = document.querySelector(".esp-dropdown");
+
+      espToggle.addEventListener("click", () => {
+        espDropdown.classList.toggle("active");
+        console.log("clicked");
       });
     </script>
   </body>
