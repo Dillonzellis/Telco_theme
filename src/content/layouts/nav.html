@@ -13,17 +13,125 @@
 
   <body>
     <!-- TOP NAV -->
-
-    <!-- <div class="wide-container">
-      <div class="top-nav | fs-300 clr-primary-400 fw-bold | flex j-end | py-400">
-        <div>ROUTING NUMBER: 311985791</div>
-        <div><a class="clr-primary-400" href="tel:+9037535588">(903) 753-5588</a></div>
-        <div class="flex a-items-center">
-          <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div class="container-de">
+      <div class="[ py-1 md-py-2 ]">
+        <div class="[ flex gap-1 ] [ justify-between md-justify-end items-center ] [ clr-primary-400 fw-semi-bold ]">
+          <div class="esp-toggle">
+            <div>Espanol</div>
+            <ul class="esp-dropdown hidden z-100">
+              <li><a href="https://dev3.growthbydesign.org/espanol/#ahorros">Las Cuentas De Ahorros</a></li>
+              <li><a href="https://dev3.growthbydesign.org/espanol/#cheques/">Cuentas De Cheques</a></li>
+              <li><a href="https://dev3.growthbydesign.org/espanol/#pr%C3%A9stamos">Préstamos Para Los Consumidores</a></li>
+              <li><a href="https://dev3.growthbydesign.org/espanol/#servicious">Servicious Adicionales</a></li>
+            </ul>
+          </div>
+          <div class="[ fs-12 md-fs-14 ]">ROUTING NO: 311985791</div>
+          <div class="[ fs-12 md-fs-14 ]"><a class="clr-primary-400" href="tel:+1903-753-5588">(903) 753-5588</a></div>
+          <svg id="search-icon" class="cursor-pointer" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M6.13832 0C7.61596 0 9.03307 0.586988 10.0779 1.63183C11.1228 2.67668 11.7098 4.09379 11.7098 5.57143C11.7098 6.95143 11.204 8.22 10.3726 9.19714L10.604 9.42857H11.2812L15.5669 13.7143L14.2812 15L9.99547 10.7143V10.0371L9.76404 9.80571C8.78689 10.6371 7.51832 11.1429 6.13832 11.1429C4.66069 11.1429 3.24357 10.5559 2.19873 9.51102C1.15388 8.46618 0.566895 7.04906 0.566895 5.57143C0.566895 4.09379 1.15388 2.67668 2.19873 1.63183C3.24357 0.586988 4.66069 0 6.13832 0ZM6.13832 1.71429C3.99547 1.71429 2.28118 3.42857 2.28118 5.57143C2.28118 7.71429 3.99547 9.42857 6.13832 9.42857C8.28118 9.42857 9.99547 7.71429 9.99547 5.57143C9.99547 3.42857 8.28118 1.71429 6.13832 1.71429Z" fill="#0066A4" />
           </svg>
         </div>
+        <div class="search-bar-container hidden- flex justify-end">
+          <form role="search" method="get" class="et_pb_searchform" action="https://dev3.growthbydesign.org/">
+            <div>
+              <label class="screen-reader-text hidden" for="s">Search for:</label>
+              <input class="search-bar" type="text" name="s" placeholder="Search" class="" />
+              <input type="hidden" name="" value="et_search_proccess" />
+
+              <input type="hidden" name="et_pb_include_pages" value="yes" />
+              <input class="search-bar__submit" type="submit" value="Search" class="" />
+            </div>
+          </form>
+        </div>
       </div>
-    </div> -->
+    </div>
+
+    <script>
+      const searchBtn = document.querySelector("#search-icon");
+
+      searchBtn.addEventListener("click", () => {
+        const searchBar = document.querySelector(".search-bar-container");
+        searchBar.classList.toggle("search-active");
+      });
+    </script>
+
+    <script>
+      const espToggle = document.querySelector(".esp-toggle");
+      const espDropdown = document.querySelector(".esp-dropdown");
+
+      espToggle.addEventListener("click", () => {
+        espDropdown.classList.toggle("active");
+        console.log("clicked");
+      });
+    </script>
+
+    <nav class="container-de py-1 flex items-center justify-between">
+      <a href="https://dev3.growthbydesign.org/"><img src="https://dev3.growthbydesign.org/wp-content/uploads/2022/10/logo.png" alt="telco plus logo" /></a>
+      <div class="lg-flex-1">
+        <button class="navbar-toggler lg-hidden" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </button>
+        <div class="nav-bar hidden lg-block absolute w-full bgc-primary-400 left-0 py-1 lg-relative lg-bgc-clr-neutral-100">
+          <ul class="list-none w-full flex flex-col gap-y-1 uppercase lg-flex-row lg-justify-between items-center">
+            <li><a href="https://dev3.growthbydesign.org/mortgage/" class="flex fw-semi-bold fs-18 lg-fs-16 lg-p-1">Mortgage</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown__toggle flex fw-semi-bold fs-18 lg-fs-16">Banking</a>
+              <ul class="dropdown__menu hidden list-none flex-col gap-y-05 my-4">
+                <li class="lg-border-radius-top-hover"><a href="https://dev3.growthbydesign.org/checking/">Checking</a></li>
+                <li><a href="https://dev3.growthbydesign.org/savings/">savings</a></li>
+                <li><a href="https://dev3.growthbydesign.org/products/">products</a></li>
+                <li class="lg-border-radius-bottom-hover"><a href="https://dev3.growthbydesign.org/rates/" class="border-0">rates</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="" class="dropdown__toggle flex fw-semi-bold fs-18 lg-fs-16">Lending</a>
+              <ul class="dropdown__menu hidden list-none flex-col gap-y-05 my-4">
+                <li class="lg-border-radius-top-hover"><a href="https://dev3.growthbydesign.org/loans/">Loans</a></li>
+                <li><a href="https://dev3.growthbydesign.org/loans/#loan-application">loan application</a></li>
+                <li><a href="https://dev3.growthbydesign.org/loans/#products">products</a></li>
+                <li class="lg-border-radius-bottom-hover"><a href="https://dev3.growthbydesign.org/loans/#rates" class="border-0">rates</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="" class="dropdown__toggle flex fw-semi-bold fs-18 lg-fs-16">Digital Branch</a>
+              <ul class="dropdown__menu hidden list-none flex-col gap-y-05 my-4">
+                <li class="lg-border-radius-top-hover"><a href="https://dev3.growthbydesign.org/self-services/">self services</a></li>
+                <li><a href="https://dev3.growthbydesign.org/self-services/#calculators">calculators</a></li>
+                <li><a href="https://dev3.growthbydesign.org/self-services/#contacts">Contact & links</a></li>
+                <li><a href="https://dev3.growthbydesign.org/for-sale/">for sale</a></li>
+                <li><a href="https://dev3.growthbydesign.org/self-services/#forms">forms</a></li>
+                <li><a href="https://dev3.growthbydesign.org/self-services/#how-to">how to</a></li>
+                <li><a href="https://dev3.growthbydesign.org/self-services/#insurance">insurance</a></li>
+                <li class="lg-border-radius-bottom-hover"><a href="https://dev3.growthbydesign.org/questions-answers/" class="border-0">questions & answers</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="" class="dropdown__toggle flex fw-semi-bold fs-18 lg-fs-16">About</a>
+              <ul class="dropdown__menu hidden list-none flex-col gap-y-05 my-4">
+                <li class="lg-border-radius-top-hover"><a href="https://dev3.growthbydesign.org/about/">about us</a></li>
+                <li><a href="https://dev3.growthbydesign.org/about/#locations">locations & contact us</a></li>
+                <li><a href="https://dev3.growthbydesign.org/about/#news">Current news & holidays</a></li>
+                <li class="lg-border-radius-bottom-hover"><a href="https://dev3.growthbydesign.org/about/#financials" class="border-0">financials & newsletters</a></li>
+              </ul>
+            </li>
+            <li class="dropdown lg-hidden">
+              <a href="" class="dropdown__toggle flex nav-btn esp-btn">Espanol</a>
+              <ul class="dropdown__menu hidden list-none flex-col gap-y-05 my-4">
+                <li class="lg-border-radius-top-hover"><a href="https://dev3.growthbydesign.org/espanol/#ahorros" class="capitalize">las cuentas de ahorros</a></li>
+                <li><a href="https://dev3.growthbydesign.org/espanol/#cheques/" class="capitalize">cuentas de cheques</a></li>
+                <li><a href="https://dev3.growthbydesign.org/espanol/#pr%C3%A9stamos">préstamos para los consumidores</a></li>
+                <li class="lg-border-radius-bottom-hover"><a href="https://dev3.growthbydesign.org/espanol/#servicious" class="border-0 capitalize">servicious adicionales</a></li>
+              </ul>
+            </li>
+            <li class="text-center"><a href="https://dev3.growthbydesign.org/coconut/" class="nav-btn flex">Book Appointment</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script src="/src/js/custom-nav.js"></script>
   </body>
 </html>
