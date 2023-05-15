@@ -91,6 +91,13 @@
   line-height: 1;
 }
 
+.lg-fs-14 {
+  @include breakpoint(lg) {
+    font-size: rem(14);
+    line-height: 1.25rem;
+  }
+}
+
 .lg-fs-16 {
   @include breakpoint(lg) {
     font-size: rem(16);
