@@ -17,12 +17,12 @@
       <div class="[ py-1 md-py-2 ]">
         <div class="[ flex gap-1 ] [ justify-between md-justify-end items-center ] [ clr-primary-400 fw-semi-bold ]">
           <div class="esp-toggle">
-            <div>Espanol</div>
+            <div>ESPANOL</div>
             <ul class="esp-dropdown hidden z-100">
-              <li><a href="https://dev3.growthbydesign.org/espanol/#ahorros">Las Cuentas De Ahorros</a></li>
-              <li><a href="https://dev3.growthbydesign.org/espanol/#cheques/">Cuentas De Cheques</a></li>
-              <li><a href="https://dev3.growthbydesign.org/espanol/#pr%C3%A9stamos">Préstamos Para Los Consumidores</a></li>
-              <li><a href="https://dev3.growthbydesign.org/espanol/#servicious">Servicious Adicionales</a></li>
+              <a href="https://dev3.growthbydesign.org/espanol/#ahorros" class="clr-neutral-100"><li>Las Cuentas De Ahorros</li></a>
+              <a href="https://dev3.growthbydesign.org/espanol/#cheques/" class="clr-neutral-100"><li>Cuentas De Cheques</li></a>
+              <a href="https://dev3.growthbydesign.org/espanol/#pr%C3%A9stamos" class="clr-neutral-100"><li>Préstamos Para Los Consumidores</li></a>
+              <a href="https://dev3.growthbydesign.org/espanol/#servicious" class="clr-neutral-100"><li>Servicious Adicionales</li></a>
             </ul>
           </div>
           <div class="[ fs-12 md-fs-14 ]">ROUTING NO: 311985791</div>
@@ -62,6 +62,12 @@
       espToggle.addEventListener("click", () => {
         espDropdown.classList.toggle("active");
         console.log("clicked");
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!espToggle.contains(e.target)) {
+          espDropdown.classList.remove("active");
+        }
       });
     </script>
 
@@ -132,6 +138,50 @@
         </div>
       </div>
     </nav>
-    <script src="/src/js/custom-nav.js"></script>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navBar = document.querySelector(".nav-bar");
+
+      const dropDown = document.querySelector(".drop-down");
+      const dropdownToggles = document.querySelectorAll(".dropdown__toggle");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+
+        navBar.classList.toggle("active");
+      });
+
+      dropdownToggles.forEach((toggle) => {
+        toggle.addEventListener("click", (event) => {
+          event.preventDefault();
+          const dropdownMenu = toggle.nextElementSibling;
+          const isActive = dropdownMenu.classList.contains("active");
+          closeAllDropdowns();
+          if (!isActive) {
+            dropdownMenu.classList.add("active");
+            toggle.classList.add("active");
+          }
+        });
+      });
+
+      function closeAllDropdowns() {
+        const dropdownMenus = document.querySelectorAll(".dropdown__menu");
+        dropdownMenus.forEach((menu) => {
+          menu.classList.remove("active");
+        });
+        const dropdownToggles = document.querySelectorAll(".dropdown__toggle");
+        dropdownToggles.forEach((toggle) => {
+          toggle.classList.remove("active");
+        });
+      }
+
+      document.addEventListener("click", (e) => {
+        const isDropdownToggle = Array.from(dropdownToggles).some((toggle) => toggle.contains(e.target));
+        if (!isDropdownToggle) {
+          closeAllDropdowns();
+          console.log("clicked outside");
+        }
+      });
+    </script>
   </body>
 </html>

@@ -16,12 +16,12 @@
       <div class="[ py-1 md-py-2 ]">
         <div class="[ flex gap-1 ] [ justify-between md-justify-end items-center ] [ clr-primary-400 fw-semi-bold ]">
           <div class="esp-toggle">
-            <div>Espanol</div>
-            <ul class="esp-dropdown hidden">
-              <li><a href="https://dev3.growthbydesign.org/espanol/#ahorros">Las Cuentas De Ahorros</a></li>
-              <li><a href="https://dev3.growthbydesign.org/espanol/#cheques/">Cuentas De Cheques</a></li>
-              <li><a href="https://dev3.growthbydesign.org/espanol/#pr%C3%A9stamos">Préstamos Para Los Consumidores</a></li>
-              <li><a href="https://dev3.growthbydesign.org/espanol/#servicious">Servicious Adicionales</a></li>
+            <div>ESPANOL</div>
+            <ul class="esp-dropdown hidden z-100">
+              <a href="https://dev3.growthbydesign.org/espanol/#ahorros"><li>Las Cuentas De Ahorros</li></a>
+              <a href="https://dev3.growthbydesign.org/espanol/#cheques/"><li>Cuentas De Cheques</li></a>
+              <a href="https://dev3.growthbydesign.org/espanol/#pr%C3%A9stamos"><li>Préstamos Para Los Consumidores</li></a>
+              <a href="https://dev3.growthbydesign.org/espanol/#servicious"><li>Servicious Adicionales</li></a>
             </ul>
           </div>
           <div class="[ fs-12 md-fs-14 ]">ROUTING NO: 311985791</div>
@@ -61,6 +61,12 @@
       espToggle.addEventListener("click", () => {
         espDropdown.classList.toggle("active");
         console.log("clicked");
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!espToggle.contains(e.target)) {
+          espDropdown.classList.remove("active");
+        }
       });
     </script>
   </body>

@@ -16,3 +16,9 @@ espToggle.addEventListener("click", () => {
   espDropdown.classList.toggle("active");
   console.log("clicked");
 });
+
+document.addEventListener("click", (e) => {
+  if (!espToggle.contains(e.target)) {
+    espDropdown.classList.remove("active");
+  }
+});

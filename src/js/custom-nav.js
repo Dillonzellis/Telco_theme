@@ -2,16 +2,13 @@ const hamburger = document.querySelector(".hamburger");
 const navBar = document.querySelector(".nav-bar");
 
 const dropDown = document.querySelector(".drop-down");
-
-
+const dropdownToggles = document.querySelectorAll(".dropdown__toggle");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
 
   navBar.classList.toggle("active");
 });
-
-const dropdownToggles = document.querySelectorAll(".dropdown__toggle");
 
 dropdownToggles.forEach((toggle) => {
   toggle.addEventListener("click", (event) => {
@@ -36,3 +33,11 @@ function closeAllDropdowns() {
     toggle.classList.remove("active");
   });
 }
+
+document.addEventListener("click", (e) => {
+  const isDropdownToggle = Array.from(dropdownToggles).some((toggle) => toggle.contains(e.target));
+  if (!isDropdownToggle) {
+    closeAllDropdowns();
+    console.log("clicked outside");
+  }
+});
