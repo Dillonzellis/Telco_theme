@@ -164,6 +164,12 @@
     padding-bottom: 4rem
 }
 
+.md-pt-2 {
+    @include breakpoint(md) {
+        padding-top: 2rem;
+    }
+}
+
 .md-pb-2 {
     @include breakpoint(md) {
         padding-bottom: 2rem;
@@ -308,5 +314,11 @@
 .max-lg-pb-4 {
     @include breakpoint-down(lg) {
         padding-bottom: 1rem !important;
+    }
+}
+
+.md-pt-2 {
+    @include breakpoint(md) {
+        padding-top: 2rem;
     }
 }
