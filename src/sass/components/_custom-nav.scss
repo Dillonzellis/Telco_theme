@@ -40,7 +40,7 @@ nav {
 }
 
 .nav-bar {
-    // top: 100%;
+    top: 100%;
 
     @media(max-width:999px) {
         border-bottom: 6px solid var(--clr-accent-400);
