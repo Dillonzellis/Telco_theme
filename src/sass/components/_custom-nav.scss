@@ -86,6 +86,8 @@ nav {
 }
 
 .dropdown__menu {
+    z-index: 100;
+
     li {
         text-align: start;
     }
