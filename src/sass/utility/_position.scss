@@ -12,8 +12,20 @@
   }
 }
 
+.right-0 {
+  right: 0;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
 .-translate-x-50 {
   transform: translateX(-50%);
+}
+
+.-translate-y-1\/2 {
+  transform: translateY(-50%);
 }
 
 // .-translate-y-50 {

@@ -1,14 +1,24 @@
-.questions-search {
-    width: 100%;
-    border: 0 !important;
-    border-bottom: 2px solid rgb(85, 85, 85) !important;
-    margin-bottom: 2rem !important;
-    font-size: 1.25rem;
+.question-wrapper {
 
+    margin-bottom: 2rem !important;
 
     @media(min-width:768px) {
         margin-top: 3rem !important;
         margin-bottom: 5rem !important;
+    }
+}
+
+.questions-search {
+    width: 100%;
+    border: 0 !important;
+    border-bottom: 2px solid rgb(85, 85, 85) !important;
+    // margin-bottom: 2rem !important;
+    font-size: 1.25rem;
+
+
+    @media(min-width:768px) {
+        // margin-top: 3rem !important;
+        // margin-bottom: 5rem !important;
         font-size: 3rem;
     }
 
