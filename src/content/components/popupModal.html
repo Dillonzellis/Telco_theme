@@ -16,15 +16,17 @@
         height: 100%;
         overflow: auto;
         background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(3px);
       }
 
       .modal-content {
-        background-color: #075780;
+        /* background-color: #075780; */
+        background-color: transparent;
         margin: 15% auto;
         padding: 30px;
-        border: 1px solid #888;
+        /* border: 1px solid #888; */
         width: 100%;
-        max-width: 600px;
+        max-width: 800px;
         /* text-align: center; */
         border-radius: 5px;
         position: relative;
@@ -39,6 +41,7 @@
         background-color: transparent;
         border: none;
         cursor: pointer;
+        color: white;
       }
 
       .close-btn:hover {
@@ -53,10 +56,12 @@
 
     <div id="modal" class="modal">
       <div class="modal-content">
-        <iframe width="600" height="315" src="https://www.youtube.com/embed/Pcfp0xQN2jQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="800" height="415" src="https://www.youtube.com/embed/Pcfp0xQN2jQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <button id="close-btn" class="close-btn">&times;</button>
       </div>
     </div>
+
+    <div>some other content</div>
 
     <script>
       // set cookie function
