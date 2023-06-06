@@ -17,6 +17,12 @@
     }
 }
 
+.lg-grid-cols-4 {
+    @media(min-width: 1000px) {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
 .grid-cols-85-1 {
     @media(min-width: em(450)) {
         grid-template-columns: 0.85fr 1fr;
